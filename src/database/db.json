@@ -2223,6 +2223,24 @@
           "features": "Mangekyo print, padded insole, anime lace tags"
         }
       ]
+    },
+    {
+      "id": "92ef",
+      "name": "denjo",
+      "email": "jhkh@g.com",
+      "password": "12345678+9",
+      "address": [],
+      "cart": [],
+      "order": []
+    },
+    {
+      "id": "f709",
+      "name": "dennis",
+      "email": "dennisjoseph2025@gmail.com",
+      "password": "123456789",
+      "address": [],
+      "cart": [],
+      "order": []
     }
   ]
 }
