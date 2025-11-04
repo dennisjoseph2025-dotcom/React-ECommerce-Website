@@ -35,14 +35,6 @@ function Menuebar() {
           {label}
         </NavLink>
       ))}
-     <button
-    className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
-    onClick={() => {
-      // handle search toggle or focus
-    }}
-  >
-    Search
-  </button>
     </div>
   </div>
 </>
