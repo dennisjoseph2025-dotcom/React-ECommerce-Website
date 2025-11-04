@@ -1,0 +1,2228 @@
+{
+  "products": {
+    "all": [
+      {
+        "id": 101,
+        "name": "Naruto: Akatsuki Kimono",
+        "type": "Oversized Shirts",
+        "price": 2199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
+        "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
+        "availability": "In Stock",
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ],
+        "category": "Anime/Naruto, Shirts",
+        "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
+      },
+      {
+        "id": 102,
+        "name": "Naruto Shippuden: Akatsuki Outlaws",
+        "type": "Oversized Polos",
+        "price": 1249,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739598511_6893197.jpg?w=480&dpr=2",
+        "description": "Naruto inspired polo with Akatsuki Outlaws motif. Classic style for any anime lover.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Polos",
+        "features": "Premium cotton, Akatsuki cloud print, anime statement look"
+      },
+      {
+        "id": 103,
+        "name": "Naruto Shippuden: Yin & Yang",
+        "type": "Oversized Shirts",
+        "price": 1699,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+        "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+        "availability": "In Stock",
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ],
+        "category": "Anime/Naruto, Shirts",
+        "features": "Soft material, anime prints, loose fit"
+      },
+      {
+        "id": 104,
+        "name": "Demon Slayer: Tanjiro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
+        "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
+        "availability": "In Stock",
+        "sizes": [
+          "XXS",
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL",
+          "XXXL"
+        ],
+        "category": "Anime/Demon Slayer, T-Shirts",
+        "features": "Bright artwork, boxy fit, 100% cotton"
+      },
+      {
+        "id": 105,
+        "name": "Naruto Shippuden: Konoha Leaf",
+        "type": "Oversized Full Sleeve T-Shirts",
+        "price": 1299,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1738129944_9654264.jpg?w=480&dpr=2",
+        "description": "Naruto Konoha Leaf full sleeve tee. Cozy and signature anime style.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, T-Shirts",
+        "features": "Full sleeve, bold print, relaxed cut"
+      },
+      {
+        "id": 106,
+        "name": "Naruto Shippuden: Hokage Dream",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+        "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, T-Shirts",
+        "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+      },
+      {
+        "id": 107,
+        "name": "Naruto Shippuden: Toad Sage",
+        "type": "Men Oversized Sweatshirts",
+        "price": 1599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1736595920_6827195.jpg?w=480&dpr=2",
+        "description": "Toad Sage sweatshirt—keeps you warm with anime flair.",
+        "availability": "In Stock",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Sweatshirts",
+        "features": "Brushed fleece, large print, roomy"
+      },
+      {
+        "id": 108,
+        "name": "Attack On Titan: Survey Corps",
+        "type": "Super Oversized T-Shirts",
+        "price": 1299,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760776013_1639643.jpg?w=480&dpr=2",
+        "description": "Super oversized Survey Corps tee for Attack on Titan fans.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Attack on Titan, T-Shirts",
+        "features": "Extra large fit, bold chest logo, soft fabric"
+      },
+      {
+        "id": 109,
+        "name": "Naruto Shippuden: Uchiha",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1740200658_8758918.jpg?w=480&dpr=2",
+        "description": "Oversized T-shirt with Uchiha clan art. Soft and high-impact anime gear.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, T-Shirts",
+        "features": "Thick fabric, high-res print, roomy"
+      },
+      {
+        "id": 110,
+        "name": "Naruto Shippuden: Itachi's Story",
+        "type": "Men Oversized Hoodies",
+        "price": 2499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1758793855_1776968.jpg?w=480&dpr=2",
+        "description": "Itachi Uchiha hoodie, oversized and warm, inspired by Naruto Shippuden.",
+        "availability": "In Stock",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Hoodies",
+        "features": "Plush interior, kangaroo pocket, anime embroidery"
+      },
+      {
+        "id": 111,
+        "name": "Naruto: Nine Tails",
+        "type": "T-Shirts",
+        "price": 799,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760422733_5333444.jpg?w=480&dpr=2",
+        "description": "Regular fit Naruto tee with Nine Tails motif.",
+        "availability": "In Stock",
+        "sizes": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, T-Shirts",
+        "features": "Breathable, casual cut, everyday wear"
+      },
+      {
+        "id": 112,
+        "name": "Naruto: The Last Uchiha",
+        "type": "Oversized Shirts",
+        "price": 1499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1694255935_8276461.jpg?w=480&dpr=2",
+        "description": "Oversized shirt, The Last Uchiha. Official anime design.",
+        "availability": "In Stock",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Shirts",
+        "features": "Large fit, strong prints, pop-culture styling"
+      },
+      {
+        "id": 113,
+        "name": "Ben 10: Omnitrix",
+        "type": "Oversized T-Shirts",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1749817476_9622078.jpg?w=480&dpr=2",
+        "description": "Oversized Ben 10 Omnitrix T-shirt, a creative cartoon statement.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Cartoon/Ben 10, T-Shirts",
+        "features": "Unique design, soft fabric, cartoon artwork"
+      },
+      {
+        "id": 114,
+        "name": "One Piece: Pirate Tales",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751969357_8097232.jpg?w=480&dpr=2",
+        "description": "One Piece oversized Pirate Tales tee, vibrant anime styling.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/One Piece, T-Shirts",
+        "features": "Anime print, oversized body, crew neck"
+      },
+      {
+        "id": 115,
+        "name": "Naruto: Kakashi Ninja",
+        "type": "Oversized Shirts",
+        "price": 1499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1694268986_3559598.jpg?w=480&dpr=2",
+        "description": "Kakashi Ninja oversized shirt, classic and comfortable.",
+        "availability": "In Stock",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Shirts",
+        "features": "Anime art, soft touch, relaxed fit"
+      },
+      {
+        "id": 116,
+        "name": "Naruto Shippuden: Team Seven",
+        "type": "Polos",
+        "price": 1249,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755926047_4774775.jpg?w=480&dpr=2",
+        "description": "Classic collared Team Seven Naruto polo.",
+        "availability": "In Stock",
+        "sizes": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, Polos",
+        "features": "Anime embroidered, premium cotton, versatile style"
+      },
+      {
+        "id": 117,
+        "name": "Baki Hanma: The Strongest",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1742544062_7553801.jpg?w=480&dpr=2",
+        "description": "Oversized tee for Baki Hanma fans. Tough and relaxed.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Baki Hanma, T-Shirts",
+        "features": "Strong print, wide cut, cotton jersey"
+      },
+      {
+        "id": 118,
+        "name": "One Piece: Roronoa Zoro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759996439_4743100.jpg?w=480&dpr=2",
+        "description": "Oversized Zoro tee from One Piece with powerful design.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/One Piece, T-Shirts",
+        "features": "Bold graphic, extra room, cotton"
+      },
+      {
+        "id": 119,
+        "name": "One Piece: Launch Ceremony",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760099066_9477196.jpg?w=480&dpr=2",
+        "description": "One Piece Launch Ceremony oversized tee, exclusive artwork.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/One Piece, T-Shirts",
+        "features": "Special event design, high-stretch, fan favorite"
+      },
+      {
+        "id": 120,
+        "name": "Naruto: Akatsuki",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1726335474_6195600.jpg?w=480&dpr=2",
+        "description": "Naruto Akatsuki oversized tee. Classic streetwear for anime lovers.",
+        "availability": "In Stock",
+        "sizes": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ],
+        "category": "Anime/Naruto, T-Shirts",
+        "features": "Soft touch fabric, house Akatsuki art, roomy cut"
+      },
+      {
+        "id": "e78c9548",
+        "name": "Brand of Sacrifice Beanie",
+        "type": "Beanie",
+        "price": 749,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/berserk_beanie_lsiting2_hitanshi-scaled-600x800.jpg.webp",
+        "description": "Berserk Brand of Sacrifice beanie, woven comfort with iconic anime motif.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Berserk, Accessories",
+        "features": "Soft knit, stretch fit, Brand of Sacrifice embroidery, suitable for cold weather"
+      },
+      {
+        "id": "fe1f735a",
+        "name": "Jujutsu Sorcerer Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp",
+        "description": "Jujutsu Kaisen sorcerer beanie—classic winterwear with anime flair.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Jujutsu Kaisen, Accessories",
+        "features": "Elastic knit, logo embroidery, lightweight, anime collector style"
+      },
+      {
+        "id": "d9a4475b",
+        "name": "King of Curses Beanie",
+        "type": "Beanie",
+        "price": 549,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/sukuna_beanie_lsiting1_hitanshi-scaled.jpg.webp",
+        "description": "Jujutsu Kaisen Sukuna King of Curses beanie. Distinctive villain inspiration.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Jujutsu Kaisen, Accessories",
+        "features": "Sukuna motif, soft touch, winter fit"
+      },
+      {
+        "id": "straw-hats-beanie-4",
+        "name": "Straw hats Beanie",
+        "type": "Beanie",
+        "price": 649,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/onepiece_strawhats_beanie_listing1_hitanshi-scaled.jpg.webp",
+        "description": "One Piece Straw Hats beanie, loyal crew logo and warm fit.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/One Piece, Accessories",
+        "features": "One Piece logo, flexible knit, casual wear"
+      },
+      {
+        "id": "doffy-beanie-2",
+        "name": "Doffy Beanie",
+        "type": "Beanie",
+        "price": 799,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/doffy_onepiece_beanie_listing1_comicsense.jpg",
+        "description": "Doflamingo inspired beanie from One Piece with distinct character colors.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/One Piece, Accessories",
+        "features": "Premium knit, villain motif, stretch fit"
+      },
+      {
+        "id": "scar-beanie-2",
+        "name": "Scar Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/scar_beanie_lisitng2_comicsense.jpg",
+        "description": "Anime-inspired Scar Beanie, stylish and bold for any fan.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Accessories",
+        "features": "Ribbed knit, embroidered design, snug winter fit"
+      },
+      {
+        "id": "senpai-beanie-2",
+        "name": "Senpai Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/senpai_beanie_listing_white_comicsense.jpg",
+        "description": "Senpai beanie, white variant, for subtle anime statement.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Accessories",
+        "features": "Clean white knit, Senpai logo, flexible fit"
+      },
+      {
+        "id": "torino-beanie-2",
+        "name": "Torino Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/haikyu_beanie_listing1_comicsense.jpg",
+        "description": "Haikyuu!! Torino Beanie, team pride and warmth in one.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Haikyuu!!, Accessories",
+        "features": "Team motif, stretchable, sports anime style"
+      },
+      {
+        "id": "warrior-beanie-2",
+        "name": "Warrior Beanie",
+        "type": "Beanie",
+        "price": 649,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/warrior_beanie_lisitng1_comicsense.jpg",
+        "description": "Warrior beanie for a bold anime look, cozy and durable.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Accessories",
+        "features": "Thick knit, embroidered warrior, warm fit"
+      },
+      {
+        "id": "mugiwara-beanie-2",
+        "name": "Mugiwara Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/mugiwara_white-amaozn_comicsense.jpg",
+        "description": "White Mugiwara (One Piece) beanie, simple and fan-favorite.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/One Piece, Accessories",
+        "features": "Logo patch, soft knit, all-season fit"
+      },
+      {
+        "id": "ace-beanie-2",
+        "name": "Ace Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/asce_beanie_listing1_comicsense.jpg",
+        "description": "Portgas D. Ace beanie, fire style knit from One Piece universe.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/One Piece, Accessories",
+        "features": "Fire-inspired, comfortable texture, flexible sizing"
+      },
+      {
+        "id": "8aa3b38d",
+        "name": "Rogue Shinobi Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/kakashi_beanie_lisitng1_comicsense.jpg",
+        "description": "Naruto Kakashi Rogue Shinobi beanie, for the stealth fan.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Naruto, Accessories",
+        "features": "Stealth gray, ninja logo, comfort fit"
+      },
+      {
+        "id": "menacing-beanie-5",
+        "name": "Menacing Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/jojo_beanie_listing1-1-scaled.jpg.webp",
+        "description": "JOJO's Bizarre Adventure Menacing beanie—distinctive anime flair.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Jojo's Bizarre Adventure, Accessories",
+        "features": "Bold motif, thick weave, soft interior"
+      },
+      {
+        "id": "19bbcad4",
+        "name": "Soul Society Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/bleach_beanie_listing3-scaled.jpg.webp",
+        "description": "Bleach Soul Society beanie, classic symbol and cool style.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Bleach, Accessories",
+        "features": "Soul Society patch, ribbed knit, warm"
+      },
+      {
+        "id": "32085fde",
+        "name": "Wings of Freedom Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/aot_beanie_listing3-1-scaled.jpg.webp",
+        "description": "Attack on Titan Wings of Freedom beanie in classic color.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Attack on Titan, Accessories",
+        "features": "AOT symbol, elastic, thick knit, collector's item"
+      },
+      {
+        "id": "anti-magic-beanie-5",
+        "name": "Anti Magic Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/blackclover_antimagic_beanie_listing1_hitanshi-scaled.jpg.webp",
+        "description": "Black Clover Anti Magic beanie, clean and bold winter accessory.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/Black Clover, Accessories",
+        "features": "Anti Magic motif, flexible, cozy"
+      },
+      {
+        "id": "marimo-beanie-2",
+        "name": "Marimo Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/marimo_onepice_beanie_lisitng1_comicsense.jpg",
+        "description": "Marimo beanie with green marimo motif, flexible fan favorite.",
+        "availability": "In Stock",
+        "sizes": [
+          "Free Size"
+        ],
+        "category": "Anime/One Piece, Accessories",
+        "features": "Stretch knit, unique anime color, one size"
+      },
+      {
+        "id": "black-panther-warrior",
+        "name": "Black Panther: Warrior",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+        "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Marvel, Footwear",
+        "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+      },
+      {
+        "id": "sasuke-high-top-2",
+        "name": "Naruto Shippuden: Sasuke",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2",
+        "description": "Sasuke Uchiha high-top sneakers from Naruto. Themed laces and clan icons.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Naruto, Footwear",
+        "features": "Mangekyo print, padded insole, anime lace tags"
+      },
+      {
+        "id": "deadpool-utility-suit",
+        "name": "Deadpool: Utility Suit",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751879704_3662286.jpg?w=480&dpr=2",
+        "description": "Deadpool utility suit theme sneakers, functional and fun for fans.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Marvel, Footwear",
+        "features": "Bold color, padded footbed, Marvel branding"
+      },
+      {
+        "id": "fantastic-four-quantum-step",
+        "name": "Fantastic 4: Quantum Step",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3899,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2",
+        "description": "Fantastic 4 inspired high-tops. Quantum graphics and comfortable design.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Marvel, Footwear",
+        "features": "Premium synthetic, themed prints, comfortable support"
+      },
+      {
+        "id": "batman-dark-knight-2",
+        "name": "Batman: The Dark Knight 2.0",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?w=480&dpr=2",
+        "description": "Batman themed high-top sneakers. Sleek, iconic, and comfy.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/DC, Footwear",
+        "features": "Dark colorway, cushioned insole, DC branding"
+      },
+      {
+        "id": "top-gun-maverick-kicks",
+        "name": "Top Gun: Maverick Kicks",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711641966_1284271.jpg?w=480&dpr=2",
+        "description": "Top Gun: Maverick sneakers inspired by aviation greatness.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Movies, Footwear",
+        "features": "Aviation print, mesh lining, impact absorbent"
+      },
+      {
+        "id": "ubz-convertible-shuttle",
+        "name": "UBZ Convertible: Shuttle",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1757684176_1766382.jpg?w=480&dpr=2",
+        "description": "Convertible shuttle high-top—modern sneaker with bold style.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Sneakers, Footwear",
+        "features": "Sporty silhouette, flexible support, urban look"
+      },
+      {
+        "id": "transformers-bumblebee",
+        "name": "Transformers: BumbleBee",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1750145485_9922009.jpg?w=480&dpr=2",
+        "description": "Transformers BumbleBee themed high-top. Vibrant color and collectible design.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Transformers, Footwear",
+        "features": "Collectible graphics, durable sole, high mobility"
+      },
+      {
+        "id": "star-wars-yodas",
+        "name": "Star Wars: Yoda",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759387261_3013866.jpg?w=480&dpr=2",
+        "description": "Star Wars Yoda sneakers—galaxy motif, classic high top comfort.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Star Wars, Footwear",
+        "features": "Soft EVA sole, iconic artwork, franchise motif"
+      },
+      {
+        "id": "transformers-optimus",
+        "name": "Transformers: Optimus Prime",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1728559991_2087666.jpg?w=480&dpr=2",
+        "description": "Optimus Prime themed high-top with PU and silicone details.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Transformers, Footwear",
+        "features": "Premium synthetic, flexible sole, Transformers logo"
+      },
+      {
+        "id": "punisher-vigilante",
+        "name": "Punisher: Vigilante",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741089105_6834387.jpg?w=480&dpr=2",
+        "description": "Marvel's Punisher low-top with classic logo on sturdy design.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Anime/Marvel, Footwear",
+        "features": "Cushioned sole, iconic skull print, durable stitching"
+      },
+      {
+        "id": "souled-earth",
+        "name": "Souled: Earth",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1735363892_6205765.jpg?w=480&dpr=2",
+        "description": "Earth-themed high-top, original Souled Store design, everyday comfort.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Original/Souled Store, Footwear",
+        "features": "Earthy color, padded mesh, versatile styling"
+      },
+      {
+        "id": "ubz-bounce",
+        "name": "Souled: Hoops",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1754034081_3378617.jpg?w=480&dpr=2",
+        "description": "Basketball inspired high-top. High comfort for active lifestyles.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Original/Souled Store, Footwear",
+        "features": "Hoops design, impact absorbent sole, urban theme"
+      },
+      {
+        "id": "ubz-aqua",
+        "name": "UBZ: Aqua",
+        "type": "Men Mid Top Sneakers Shoes",
+        "price": 2499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1757332556_7709194.jpg?w=480&dpr=2",
+        "description": "Mid-top Aqua sneakers for vibrant street fashion and comfort.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Original/Souled Store, Footwear",
+        "features": "Bright blue color, mid-cut comfort, breathable"
+      },
+      {
+        "id": "milano-walnut",
+        "name": "Milano: Walnut",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760075563_2610315.jpg?w=480&dpr=2",
+        "description": "Milano low-top Walnut sneakers. Smart, simple, and versatile.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Original/Souled Store, Footwear",
+        "features": "Classic brown, comfortable fit, durable"
+      },
+      {
+        "id": "urban-blaze-ronin",
+        "name": "Urban Blaze: Ronin",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1756488101_4480768.jpg?w=480&dpr=2",
+        "description": "Ronin low-top from Urban Blaze collection. Stylish and reliable.",
+        "availability": "In Stock",
+        "sizes": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "category": "Original/Souled Store, Footwear",
+        "features": "Fire accent, city styling, grippy sole"
+      }
+    ],
+    "slider": [
+      {
+        "id": 101,
+        "name": "Naruto: Akatsuki Kimono",
+        "type": "Oversized Shirts",
+        "price": 2199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "black-panther-warrior",
+        "name": "Black Panther: Warrior",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 103,
+        "name": "Naruto Shippuden: Yin & Yang",
+        "type": "Oversized Shirts",
+        "price": 1699,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "deadpool-utility-suit",
+        "name": "Deadpool: Utility Suit",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751879704_3662286.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 104,
+        "name": "Demon Slayer: Tanjiro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "fantastic-four-quantum-step",
+        "name": "Fantastic 4: Quantum Step",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3899,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 113,
+        "name": "Ben 10: Omnitrix",
+        "type": "Oversized T-Shirts",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1749817476_9622078.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "sasuke-high-top-2",
+        "name": "Naruto Shippuden: Sasuke",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2"
+      }
+    ],
+    "featured": [
+      {
+        "id": 101,
+        "name": "Naruto: Akatsuki Kimono",
+        "type": "Oversized Shirts",
+        "price": 2199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 102,
+        "name": "Naruto Shippuden: Akatsuki Outlaws",
+        "type": "Oversized Polos",
+        "price": 1249,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739598511_6893197.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 111,
+        "name": "Naruto: Nine Tails",
+        "type": "T-Shirts",
+        "price": 799,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760422733_5333444.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 104,
+        "name": "Demon Slayer: Tanjiro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "e78c9548",
+        "name": "Brand of Sacrifice Beanie",
+        "type": "Beanie",
+        "price": 749,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/berserk_beanie_lsiting2_hitanshi-scaled-600x800.jpg.webp"
+      },
+      {
+        "id": "d9a4475b",
+        "name": "King of Curses Beanie",
+        "type": "Beanie",
+        "price": 549,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/sukuna_beanie_lsiting1_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "anti-magic-beanie-5",
+        "name": "Anti Magic Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/blackclover_antimagic_beanie_listing1_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "32085fde",
+        "name": "Wings of Freedom Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/aot_beanie_listing3-1-scaled.jpg.webp"
+      },
+      {
+        "id": "deadpool-utility-suit",
+        "name": "Deadpool: Utility Suit",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751879704_3662286.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "fantastic-four-quantum-step",
+        "name": "Fantastic 4: Quantum Step",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3899,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "batman-dark-knight-2",
+        "name": "Batman: The Dark Knight 2.0",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "urban-blaze-ronin",
+        "name": "Urban Blaze: Ronin",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1756488101_4480768.jpg?w=480&dpr=2"
+      }
+    ],
+    "tops": [
+      {
+        "id": 101,
+        "name": "Naruto: Akatsuki Kimono",
+        "type": "Oversized Shirts",
+        "price": 2199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 102,
+        "name": "Naruto Shippuden: Akatsuki Outlaws",
+        "type": "Oversized Polos",
+        "price": 1249,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739598511_6893197.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 103,
+        "name": "Naruto Shippuden: Yin & Yang",
+        "type": "Oversized Shirts",
+        "price": 1699,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 104,
+        "name": "Demon Slayer: Tanjiro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 105,
+        "name": "Naruto Shippuden: Konoha Leaf",
+        "type": "Oversized Full Sleeve T-Shirts",
+        "price": 1299,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1738129944_9654264.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 106,
+        "name": "Naruto Shippuden: Hokage Dream",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 107,
+        "name": "Naruto Shippuden: Toad Sage",
+        "type": "Men Oversized Sweatshirts",
+        "price": 1599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1736595920_6827195.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 108,
+        "name": "Attack On Titan: Survey Corps",
+        "type": "Super Oversized T-Shirts",
+        "price": 1299,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760776013_1639643.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 109,
+        "name": "Naruto Shippuden: Uchiha",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1740200658_8758918.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 110,
+        "name": "Naruto Shippuden: Itachi's Story",
+        "type": "Men Oversized Hoodies",
+        "price": 2499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1758793855_1776968.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 111,
+        "name": "Naruto: Nine Tails",
+        "type": "T-Shirts",
+        "price": 799,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760422733_5333444.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 112,
+        "name": "Naruto: The Last Uchiha",
+        "type": "Oversized Shirts",
+        "price": 1499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1694255935_8276461.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 113,
+        "name": "Ben 10: Omnitrix",
+        "type": "Oversized T-Shirts",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1749817476_9622078.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 114,
+        "name": "One Piece: Pirate Tales",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751969357_8097232.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 115,
+        "name": "Naruto: Kakashi Ninja",
+        "type": "Oversized Shirts",
+        "price": 1499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1694268986_3559598.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 116,
+        "name": "Naruto Shippuden: Team Seven",
+        "type": "Polos",
+        "price": 1249,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755926047_4774775.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 117,
+        "name": "Baki Hanma: The Strongest",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1742544062_7553801.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 118,
+        "name": "One Piece: Roronoa Zoro",
+        "type": "Oversized T-Shirts",
+        "price": 1049,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759996439_4743100.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 119,
+        "name": "One Piece: Launch Ceremony",
+        "type": "Oversized T-Shirts",
+        "price": 1199,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760099066_9477196.jpg?w=480&dpr=2"
+      },
+      {
+        "id": 120,
+        "name": "Naruto: Akatsuki",
+        "type": "Oversized T-Shirts",
+        "price": 999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1726335474_6195600.jpg?w=480&dpr=2"
+      }
+    ],
+    "beanie": [
+      {
+        "id": "e78c9548",
+        "name": "Brand of Sacrifice Beanie",
+        "type": "Beanie",
+        "price": 749,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/berserk_beanie_lsiting2_hitanshi-scaled-600x800.jpg.webp"
+      },
+      {
+        "id": "fe1f735a",
+        "name": "Jujutsu Sorcerer Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "d9a4475b",
+        "name": "King of Curses Beanie",
+        "type": "Beanie",
+        "price": 549,
+        "img": "https://www.comicsense.store/wp-content/uploads/2023/12/sukuna_beanie_lsiting1_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "straw-hats-beanie-4",
+        "name": "Straw hats Beanie",
+        "type": "Beanie",
+        "price": 649,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/onepiece_strawhats_beanie_listing1_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "doffy-beanie-2",
+        "name": "Doffy Beanie",
+        "type": "Beanie",
+        "price": 799,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/doffy_onepiece_beanie_listing1_comicsense.jpg"
+      },
+      {
+        "id": "scar-beanie-2",
+        "name": "Scar Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/scar_beanie_lisitng2_comicsense.jpg"
+      },
+      {
+        "id": "senpai-beanie-2",
+        "name": "Senpai Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/senpai_beanie_listing_white_comicsense.jpg"
+      },
+      {
+        "id": "torino-beanie-2",
+        "name": "Torino Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/haikyu_beanie_listing1_comicsense.jpg"
+      },
+      {
+        "id": "warrior-beanie-2",
+        "name": "Warrior Beanie",
+        "type": "Beanie",
+        "price": 649,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/warrior_beanie_lisitng1_comicsense.jpg"
+      },
+      {
+        "id": "mugiwara-beanie-2",
+        "name": "Mugiwara Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/mugiwara_white-amaozn_comicsense.jpg"
+      },
+      {
+        "id": "ace-beanie-2",
+        "name": "Ace Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/asce_beanie_listing1_comicsense.jpg"
+      },
+      {
+        "id": "8aa3b38d",
+        "name": "Rogue Shinobi Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2025/01/kakashi_beanie_lisitng1_comicsense.jpg"
+      },
+      {
+        "id": "menacing-beanie-5",
+        "name": "Menacing Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/jojo_beanie_listing1-1-scaled.jpg.webp"
+      },
+      {
+        "id": "19bbcad4",
+        "name": "Soul Society Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/bleach_beanie_listing3-scaled.jpg.webp"
+      },
+      {
+        "id": "32085fde",
+        "name": "Wings of Freedom Beanie",
+        "type": "Beanie",
+        "price": 699,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/aot_beanie_listing3-1-scaled.jpg.webp"
+      },
+      {
+        "id": "anti-magic-beanie-5",
+        "name": "Anti Magic Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/01/blackclover_antimagic_beanie_listing1_hitanshi-scaled.jpg.webp"
+      },
+      {
+        "id": "marimo-beanie-2",
+        "name": "Marimo Beanie",
+        "type": "Beanie",
+        "price": 599,
+        "img": "https://www.comicsense.store/wp-content/uploads/2024/12/marimo_onepice_beanie_lisitng1_comicsense.jpg"
+      }
+    ],
+    "shoes": [
+      {
+        "id": "black-panther-warrior",
+        "name": "Black Panther: Warrior",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "sasuke-high-top-2",
+        "name": "Naruto Shippuden: Sasuke",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "deadpool-utility-suit",
+        "name": "Deadpool: Utility Suit",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1751879704_3662286.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "fantastic-four-quantum-step",
+        "name": "Fantastic 4: Quantum Step",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3899,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "batman-dark-knight-2",
+        "name": "Batman: The Dark Knight 2.0",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1708668433_3948163.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "top-gun-maverick-kicks",
+        "name": "Top Gun: Maverick Kicks",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711641966_1284271.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "ubz-convertible-shuttle",
+        "name": "UBZ Convertible: Shuttle",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1757684176_1766382.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "transformers-bumblebee",
+        "name": "Transformers: BumbleBee",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1750145485_9922009.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "star-wars-yodas",
+        "name": "Star Wars: Yoda",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759387261_3013866.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "transformers-optimus",
+        "name": "Transformers: Optimus Prime",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1728559991_2087666.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "punisher-vigilante",
+        "name": "Punisher: Vigilante",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1741089105_6834387.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "souled-earth",
+        "name": "Souled: Earth",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1735363892_6205765.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "ubz-bounce",
+        "name": "Souled: Hoops",
+        "type": "Men High Top Sneakers Shoes",
+        "price": 3999,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1754034081_3378617.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "ubz-aqua",
+        "name": "UBZ: Aqua",
+        "type": "Men Mid Top Sneakers Shoes",
+        "price": 2499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1757332556_7709194.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "milano-walnut",
+        "name": "Milano: Walnut",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 2599,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760075563_2610315.jpg?w=480&dpr=2"
+      },
+      {
+        "id": "urban-blaze-ronin",
+        "name": "Urban Blaze: Ronin",
+        "type": "Men Low Top Sneakers Shoes",
+        "price": 3499,
+        "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1756488101_4480768.jpg?w=480&dpr=2"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "76db",
+      "name": "denjo",
+      "email": "dennisjoseph2025@gmail.com",
+      "password": "2025",
+      "address": [],
+      "cart": [],
+      "order": [
+        {
+          "cartId": "d72e8b82-fc3a-45c3-b276-89a3ca7e0953",
+          "id": 103,
+          "name": "Naruto Shippuden: Yin & Yang",
+          "type": "Oversized Shirts",
+          "price": 1699,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "Soft material, anime prints, loose fit"
+        },
+        {
+          "cartId": "e295ac94-b347-4d55-9113-4a26a10bfa0b",
+          "id": 101,
+          "name": "Naruto: Akatsuki Kimono",
+          "type": "Oversized Shirts",
+          "price": 2199,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
+          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
+        },
+        {
+          "cartId": "92435b2f-401b-4cc0-9b12-7d5d913aff4a",
+          "id": "anti-magic-beanie-5",
+          "name": "Anti Magic Beanie",
+          "type": "Beanie",
+          "price": 599,
+          "img": "https://www.comicsense.store/wp-content/uploads/2024/01/blackclover_antimagic_beanie_listing1_hitanshi-scaled.jpg.webp",
+          "description": "Black Clover Anti Magic beanie, clean and bold winter accessory.",
+          "availability": "In Stock",
+          "sizes": [
+            "Free Size"
+          ],
+          "category": "Anime/Black Clover, Accessories",
+          "features": "Anti Magic motif, flexible, cozy"
+        },
+        {
+          "cartId": "c94536f4-2b6f-4c9f-9cf2-eb73073c67e8",
+          "id": "fantastic-four-quantum-step",
+          "name": "Fantastic 4: Quantum Step",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3899,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2",
+          "description": "Fantastic 4 inspired high-tops. Quantum graphics and comfortable design.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "Premium synthetic, themed prints, comfortable support"
+        },
+        {
+          "cartId": "f93a0357-a2a8-44a7-baf5-7331f12d6952",
+          "id": 103,
+          "name": "Naruto Shippuden: Yin & Yang",
+          "type": "Oversized Shirts",
+          "price": 1699,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "Soft material, anime prints, loose fit"
+        },
+        {
+          "cartId": "e35b4b23-1d70-4f7f-a29f-7ee5c043a915",
+          "id": 102,
+          "name": "Naruto Shippuden: Akatsuki Outlaws",
+          "type": "Oversized Polos",
+          "price": 1249,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739598511_6893197.jpg?w=480&dpr=2",
+          "description": "Naruto inspired polo with Akatsuki Outlaws motif. Classic style for any anime lover.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, Polos",
+          "features": "Premium cotton, Akatsuki cloud print, anime statement look"
+        },
+        {
+          "cartId": "f43c9a57-b418-4550-bd7f-00deb13b52e7",
+          "id": 104,
+          "name": "Demon Slayer: Tanjiro",
+          "type": "Oversized T-Shirts",
+          "price": 1049,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
+          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
+          "availability": "In Stock",
+          "sizes": [
+            "XXS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Demon Slayer, T-Shirts",
+          "features": "Bright artwork, boxy fit, 100% cotton"
+        },
+        {
+          "cartId": "94eda00e-ac06-4a30-ab74-24fb9feb5b28",
+          "id": 103,
+          "name": "Naruto Shippuden: Yin & Yang",
+          "type": "Oversized Shirts",
+          "price": 1699,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "Soft material, anime prints, loose fit"
+        },
+        {
+          "cartId": "feb1d409-1cc6-4c21-9a3c-d69b413061f6",
+          "id": 104,
+          "name": "Demon Slayer: Tanjiro",
+          "type": "Oversized T-Shirts",
+          "price": 1049,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
+          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
+          "availability": "In Stock",
+          "sizes": [
+            "XXS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Demon Slayer, T-Shirts",
+          "features": "Bright artwork, boxy fit, 100% cotton"
+        },
+        {
+          "cartId": "c69022a7-d455-4bea-916b-4e16fb2c0edd",
+          "id": 103,
+          "name": "Naruto Shippuden: Yin & Yang",
+          "type": "Oversized Shirts",
+          "price": 1699,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "Soft material, anime prints, loose fit"
+        },
+        {
+          "cartId": "7436515f-525b-419c-bd53-254769d2cb0b",
+          "id": 101,
+          "name": "Naruto: Akatsuki Kimono",
+          "type": "Oversized Shirts",
+          "price": 2199,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
+          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
+        },
+        {
+          "cartId": "3c361969-12d1-4b44-9d35-00e24bebbb65",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "b4ec8d27-6f93-4dc5-9435-cb63bcfc805b",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "2c58be16-17f9-4bc4-aee4-81ccbb1c3b47",
+          "id": 104,
+          "name": "Demon Slayer: Tanjiro",
+          "type": "Oversized T-Shirts",
+          "price": 1049,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
+          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
+          "availability": "In Stock",
+          "sizes": [
+            "XXS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Demon Slayer, T-Shirts",
+          "features": "Bright artwork, boxy fit, 100% cotton"
+        },
+        {
+          "cartId": "6389fba6-8c12-4653-8eb2-092ee728984e",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "1adca628-f845-4c48-ba30-6fb57029a78b",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "4828aa1a-0a0b-4b4e-a5f3-f633cc7a4c69",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "ba5ba2b6-4e97-43fd-b611-42d6925e6099",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "8e3fb64b-214a-4f83-936f-fc8aa7a26099",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "0a7122d8-b1c2-419f-834f-47176e6bf824",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "b9893620-1065-4559-b9da-9d5847076aa4",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "c8eecdb8-051c-4aa6-83ef-9337434339ed",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "b88a6d6a-792f-4543-adaa-3c4928a75c84",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "219289fa-285f-4f1a-b02e-7bbc43c80786",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "d6b040f8-255b-47ad-8a91-989cde13544b",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "060e4158-0965-4714-90ac-ecf0dafd1db7",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "d62926ca-2b8c-4021-9de4-614f0854de65",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "7d06512c-db68-4a53-a7df-850bdc44b0fb",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "82b6536a-8438-423d-8696-35c47ad546d6",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "1bd7d781-b9fa-45a2-8d83-8078d8592eea",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "9a5928cd-cca7-4f1b-98de-bb87354b02b5",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "b65aefcc-16b7-4a39-b31f-040d6e198b95",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "b6e3850e-3a5c-43dd-8e21-fc431f2c1048",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        },
+        {
+          "cartId": "b7cb3db3-1a43-46d7-be07-13c19fa44970",
+          "id": 106,
+          "name": "Naruto Shippuden: Hokage Dream",
+          "type": "Oversized T-Shirts",
+          "price": 999,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
+          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "category": "Anime/Naruto, T-Shirts",
+          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
+        }
+      ]
+    },
+    {
+      "id": "1821",
+      "name": "kmbikj",
+      "email": "jhbkjoi@gmail.com",
+      "password": "8789799",
+      "address": [],
+      "cart": [],
+      "order": [
+        {
+          "cartId": "a90273be-a607-4f72-9c2f-f6e4f1f16c4a",
+          "id": 104,
+          "name": "Demon Slayer: Tanjiro",
+          "type": "Oversized T-Shirts",
+          "price": 1049,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
+          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
+          "availability": "In Stock",
+          "sizes": [
+            "XXS",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Demon Slayer, T-Shirts",
+          "features": "Bright artwork, boxy fit, 100% cotton"
+        }
+      ]
+    },
+    {
+      "id": "257b",
+      "name": "denjo",
+      "email": "dennisjoseph2025@gmail.com",
+      "password": "2520",
+      "address": [],
+      "cart": [
+        {
+          "cartId": "70d7cc60-285f-40d8-98b3-b43fe5a0257d",
+          "id": 101,
+          "name": "Naruto: Akatsuki Kimono",
+          "type": "Oversized Shirts",
+          "price": 2199,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
+          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
+        }
+      ],
+      "order": [
+        {
+          "cartId": "d7ccae31-e7d6-4fe7-95b8-e35be281f57a",
+          "id": 103,
+          "name": "Naruto Shippuden: Yin & Yang",
+          "type": "Oversized Shirts",
+          "price": 1699,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+          "availability": "In Stock",
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL",
+            "XXXL"
+          ],
+          "category": "Anime/Naruto, Shirts",
+          "features": "Soft material, anime prints, loose fit"
+        },
+        {
+          "cartId": "28b7f207-c77a-4af9-85fe-cac7d4458642",
+          "id": "sasuke-high-top-2",
+          "name": "Naruto Shippuden: Sasuke",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2",
+          "description": "Sasuke Uchiha high-top sneakers from Naruto. Themed laces and clan icons.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Naruto, Footwear",
+          "features": "Mangekyo print, padded insole, anime lace tags"
+        },
+        {
+          "cartId": "99cf0eee-cc22-4448-92c7-d95c0bcaa3ea",
+          "id": "sasuke-high-top-2",
+          "name": "Naruto Shippuden: Sasuke",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2",
+          "description": "Sasuke Uchiha high-top sneakers from Naruto. Themed laces and clan icons.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Naruto, Footwear",
+          "features": "Mangekyo print, padded insole, anime lace tags"
+        },
+        {
+          "cartId": "c443c582-3a4e-45e8-a19a-9bf5fbcf0351",
+          "id": "sasuke-high-top-2",
+          "name": "Naruto Shippuden: Sasuke",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1755280285_4632885.jpg?w=480&dpr=2",
+          "description": "Sasuke Uchiha high-top sneakers from Naruto. Themed laces and clan icons.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Naruto, Footwear",
+          "features": "Mangekyo print, padded insole, anime lace tags"
+        }
+      ]
+    }
+  ]
+}
