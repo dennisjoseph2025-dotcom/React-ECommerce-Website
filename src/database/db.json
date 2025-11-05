@@ -2117,29 +2117,7 @@
       "email": "dennisjoseph2025@gmail.com",
       "password": "2520",
       "address": [],
-      "cart": [
-        {
-          "cartId": "70d7cc60-285f-40d8-98b3-b43fe5a0257d",
-          "id": 101,
-          "name": "Naruto: Akatsuki Kimono",
-          "type": "Oversized Shirts",
-          "price": 2199,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
-          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
-        }
-      ],
+      "cart": [],
       "order": [
         {
           "cartId": "d7ccae31-e7d6-4fe7-95b8-e35be281f57a",
@@ -2221,6 +2199,346 @@
           ],
           "category": "Anime/Naruto, Footwear",
           "features": "Mangekyo print, padded insole, anime lace tags"
+        },
+        {
+          "cartId": "4452c12e-5121-439a-89ea-7b4b9b10660d",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "dadff305-e8b8-452f-af81-9d5a2009d30a",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "1916909d-3a03-4405-8d23-4c3d49f3a603",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "5c02b377-d47a-4105-a3e3-f9dddd08337a",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "36aa4fa1-b934-4362-884d-296dcab82e5d",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "1fef4f71-6790-46b3-bda4-45ceb9119254",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "a0aec5f9-b53c-4959-b508-5c09f1f123d2",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "520de852-a9e8-444b-b86c-4a35a1961500",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "323a1aed-e413-4013-9dcd-69eba7d29063",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "2f5185a1-ab8b-4561-abd2-fd5342d6d118",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "37442acd-39cb-48dc-a102-20a64751cb2c",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "133a3ac0-b7df-4db4-8eae-e4b6d0cbeedd",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "db56e733-f2b3-481b-aa35-746126715f8b",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "a26d032b-4d7b-4229-9222-f92e16b25c5f",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "17f22b5c-6a75-45c5-8a66-66e1442ca954",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "b36b9297-5421-40fd-96a3-6090897184a3",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
+        },
+        {
+          "cartId": "704c60a2-4ae9-4ebc-b51f-bfa6c99d9893",
+          "id": "black-panther-warrior",
+          "name": "Black Panther: Warrior",
+          "type": "Men High Top Sneakers Shoes",
+          "price": 3499,
+          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
+          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
+          "availability": "In Stock",
+          "sizes": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "category": "Anime/Marvel, Footwear",
+          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
         }
       ]
     },

@@ -8,8 +8,8 @@ function Tops() {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [search, setSearch] = useState("");
-  const [type, setType] = useState("Type: All");
-  const [sort, setSort] = useState("Price: Default");
+  const [type, setType] = useState("All");
+  const [sort, setSort] = useState("Default");
 
   useEffect(() => {
     axios
@@ -32,15 +32,15 @@ function Tops() {
       );
     }
 
-    if (type.trim() !== "Type: All") {
+    if (type.trim() !== "All") {
       newData = newData.filter((p) =>
         p.type.toLowerCase().includes(type.toLowerCase())
       );
     }
 
-    if (sort.trim() === "Price: Low to High") {
+    if (sort.trim() === "Low to High") {
       newData.sort((a, b) => a.price - b.price);
-    } else if (sort.trim() === "Price: High to Low") {
+    } else if (sort.trim() === "High to Low") {
       newData.sort((a, b) => b.price - a.price);
     }
 

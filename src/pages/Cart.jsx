@@ -2,10 +2,10 @@ import React, { useContext, useState, useEffect } from "react";
 import { CartContext } from "../context/CartContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 function Cart() {
   let { cartDt, setCartDt } = useContext(CartContext);
-  const [loading, setLoading] = useState(false);
   // State to hold currently logged-in user info fetched from backend
   const [CkUser, setCkUser] = useState({});
 
@@ -38,7 +38,7 @@ function Cart() {
       })
       .catch((error) => {
         console.error(error);
-        alert("NO USER FOUND");
+        toast("NO USER FOUND");
       });
   }, []);
   console.log(CkUser);
@@ -98,9 +98,8 @@ function Cart() {
                   <button
                     className="self-start px-3 py-1 text-sm bg-red-600 text-white rounded hover:bg-red-700 transition disabled:opacity-50"
                     onClick={() => RemoveCart(dt.cartId)}
-                    disabled={loading}
                   >
-                    {loading ? "Removing..." : "Remove"}
+                    Remove
                   </button>
                 </div>
               </article>

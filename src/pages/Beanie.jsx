@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Searchbar from "../components/Searchbar";
+
 
 function Beanie() {
   const [data, setData] = useState([]);
@@ -19,15 +19,14 @@ function Beanie() {
 
   return (
     <>
-      <Searchbar />
       <section className="bg-gray-900 rounded-xl shadow-xl p-5 w-full max-w-full mx-auto mt-8">
         <div
           className="
         grid 
         grid-cols-2           
-        sm:grid-cols-3        
-        md:grid-cols-4       
-        lg:grid-cols-5        
+        sm:grid-cols-2        
+        md:grid-cols-3       
+        lg:grid-cols-4        
         gap-6
         justify-items-start
         max-w-full

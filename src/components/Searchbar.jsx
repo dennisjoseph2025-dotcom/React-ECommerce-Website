@@ -38,18 +38,16 @@ function Searchbar() {
           value={type}
           onChange={(e) => setType(e.target.value)}
         >
-          <option value="all">Type: All</option>
-          <option value="oversized-shirts">Oversized Shirts</option>
-          <option value="oversized-polos">Oversized Polos</option>
-          <option value="oversized-tshirts">Oversized T-Shirts</option>
-          <option value="full-sleeve-tshirts">Full Sleeve T-Shirts</option>
+          <option value="All">Type: All</option>
+          <option value="oversized shirts">Oversized Shirts</option>
+          <option value="oversized polos">Oversized Polos</option>
+          <option value="oversized tshirts">Oversized T-Shirts</option>
           <option value="sweatshirts">Sweatshirts</option>
-          <option value="super-oversized-tshirts">Super Oversized T-Shirts</option>
           <option value="tshirts">T-Shirts</option>
           <option value="polos">Polos</option>
-          <option value="high-top-sneakers">High-Top Sneakers</option>
-          <option value="low-top-sneakers">Low-Top Sneakers</option>
-          <option value="mid-top-sneakers">Mid-Top Sneakers</option>
+          <option value="high top sneakers shoes">High-Top Sneakers</option>
+          <option value="low top sneakers shoes">Low-Top Sneakers</option>
+          <option value="mid top sneakers shoes">Mid-Top Sneakers</option>
         </select>
 
         <select
@@ -60,9 +58,9 @@ function Searchbar() {
           value={sort}
           onChange={(e) => setSort(e.target.value)}
         >
-          <option value="default">Price: Default</option>
-          <option value="low-to-high">Price: Low to High</option>
-          <option value="high-to-low">Price: High to Low</option>
+          <option value="Default">Price: Default</option>
+          <option value="Low to High">Price: Low to High</option>
+          <option value="High to Low">Price: High to Low</option>
         </select>
       </section>
     </div>
