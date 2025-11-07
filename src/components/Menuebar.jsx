@@ -25,7 +25,7 @@ function Menuebar() {
       {["Home", "Tops", "Beanie", "Shoes"].map(label => (
         <NavLink
           key={label}
-          to={label === "Home" ? "/" : `/${label.toLowerCase()}`}
+          to={label === "Home" ? "/" : `user/${label.toLowerCase()}`}
           className={({ isActive }) =>
             `hover:underline hover:text-blue-300 transition duration-200 px-2 py-1 rounded ${
               isActive ? "underline text-blue-300 font-bold" : ""

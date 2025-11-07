@@ -2,8 +2,10 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import toast from 'react-hot-toast';
+import { useNavigate } from "react-router-dom";
 
 const OrderPage = () => {
+  const navi = useNavigate()
   // State to hold currently logged-in user info fetched from backend
   const [CkUser, setCkUser] = useState({});
 
@@ -36,18 +38,23 @@ const OrderPage = () => {
       (sum, item) => sum + item.price * (item.quantity || 1),
       0
     ) || 0;
+  const totalQuantity =
+    CkUser.cart?.reduce(
+      (sum, item) => sum + (item.quantity || 1),
+      0
+    ) || 0;
 
 const PlaceOrder = async (e) => {
   e.preventDefault();
 
   try {
-    // Fetch latest user including order array
+    // Fetch current user data
     const resUser = await axios.get(`http://localhost:2345/users/${CkUser.id}`);
-    const currentorder = resUser.data.order || [];
-
+    const currentOrders = resUser.data.order || [];
+    
     // Map current cart to new order items
     const newOrderItems = CkUser.cart.map(ct => ({
-      cartId: uuidv4(),
+      orderId: uuidv4(),
       id: ct.id,
       name: ct.name,
       type: ct.type,
@@ -57,25 +64,35 @@ const PlaceOrder = async (e) => {
       availability: ct.availability,
       sizes: ct.sizes,
       category: ct.category,
-      features: ct.features
+      features: ct.features,
+      quantity:ct.quantity
     }));
+    // Your new order set
+    const newOrderSet = {
+      ordersetId: new Date().getTime(),
+      products: newOrderItems,
+      status: "Ordered",
+      quantity: totalQuantity,
+      totalPrice: totalPrice,
+    };
 
-    const updatedorder = [...currentorder, ...newOrderItems];
+    // Append to the orders array
+    const updatedOrders = [...currentOrders, newOrderSet];
 
-    // Patch new order and clear cart
+    // PATCH user's orders and clear cart
     await axios.patch(`http://localhost:2345/users/${CkUser.id}`, {
-      order: updatedorder,
+      order: updatedOrders,
       cart: []
     });
 
-    // **Update local state to trigger re-render**
     setCkUser(prev => ({
       ...prev,
-      order: updatedorder,
+      order: updatedOrders,
       cart: []
     }));
 
     toast('😎Order Placed...');
+    navi('/');
   } catch (error) {
     console.error("Error placing order:", error.response?.data || error.message);
     toast("🙁Failed to place order...");
@@ -94,7 +111,7 @@ const PlaceOrder = async (e) => {
             Order Summary
           </h2>
           <div className="border border-gray-300 rounded-md p-4">
-            <ul className="divide-y divide-gray-200 max-h-48 overflow-auto">
+            <ul className="divide-y divide-gray-200 max-h-48 overflow-auto thin-scrollbar">
               {CkUser &&
               Array.isArray(CkUser.cart) &&
               CkUser.cart.length > 0 ? (

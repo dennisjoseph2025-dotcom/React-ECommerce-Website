@@ -1,21 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-
+import useGet from '../Hooks/useGet';
 
 function Beanie() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
+  const { data: products, loading, error, refetch } = useGet('products','beanie');
 
-  useEffect(() => {
-    axios
-      .get("http://localhost:2345/products")
-      .then((response) => {
-        setData(response.data.beanie);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
 
   return (
     <>
@@ -34,9 +25,9 @@ function Beanie() {
         mx-auto
       "
         >
-          {data.map((db, index) => (
+          {products.map((db, index) => (
             <Link
-              to={`/productdetails/${db.id}`}
+              to={`/user/productdetails/${db.id}`}
               key={index}
               className="block product-card bg-gray-700 p-5 rounded-2xl overflow-hidden w-full max-w-72"
             >

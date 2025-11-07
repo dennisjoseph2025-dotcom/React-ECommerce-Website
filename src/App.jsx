@@ -15,15 +15,18 @@ import Search from "./pages/Search";
 import Cart from "./pages/Cart";
 import UserProfile from "./pages/UserProfile";
 import { UserContext } from "./context/userContext";
-import { CartContext } from "./context/CartContext";
+import { RemoveContext } from "./context/RemoveContext";
 import ProductDetails from "./pages/ProductDetails";
 import OrderPage from "./pages/Order";
 import { Toaster } from "react-hot-toast";
+import OrderSummary from "./pages/OrderSummery";
+import OrderDetails from "./pages/OrderDetails";
+import AdminHome from "./adminSide/home";
 
 function App() {
   const location = useLocation();
   let [user, setUser] = useState({ name: "", email: "", password: "" });
-  let [cartDt, setCartDt] = useState({
+  let [removeDt, setRemoveDt] = useState({
     id: "",
     name: "",
     type: "",
@@ -40,12 +43,13 @@ function App() {
   const noNavbar =
     location.pathname === "/login" ||
     location.pathname === "/signup" ||
+    location.pathname === "/admin/home" ||
     location.pathname === "*";
   // const {id} = useParams()
   return (
     <div className="bg-slate-800 w-full">
       <UserContext.Provider value={{ user, setUser }}>
-        <CartContext.Provider value={{ cartDt, setCartDt }}>
+        <RemoveContext.Provider value={{ removeDt, setRemoveDt }}>
           <Toaster/>
           {!noNavbar && <Navbar />}
 
@@ -55,19 +59,22 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
 
-            <Route path="beanie" element={<Beanie />} />
-            <Route path="shoes" element={<Shoes />} />
-            <Route path="tops" element={<Tops />} />
-            <Route path="search" element={<Search />} />
-            <Route path="cart" element={<Cart />} />
-            <Route path="order" element={<OrderPage />} />
-            <Route path="/userprofile" element={<UserProfile />} />
-            <Route path="/productdetails/:id" element={<ProductDetails />} />
+            <Route path="user/beanie" element={<Beanie />} />
+            <Route path="user/shoes" element={<Shoes />} />
+            <Route path="user/tops" element={<Tops />} />
+            <Route path="user/search" element={<Search />} />
+            <Route path="user/cart" element={<Cart />} />
+            <Route path="user/order" element={<OrderPage />} />
+            <Route path="user/profile" element={<UserProfile />} />
+            <Route path="user/ordersummery" element={<OrderSummary />} />
+            <Route path="user/orderdetails/:ordersetId" element={<OrderDetails />} />
+            <Route path="user/productdetails/:id" element={<ProductDetails />} />
+            <Route path="/admin/home" element={<AdminHome />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
 
           <Footer />
-        </CartContext.Provider>
+        </RemoveContext.Provider>
       </UserContext.Provider>
     </div>
   );

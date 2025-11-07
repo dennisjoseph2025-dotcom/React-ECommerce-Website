@@ -81,7 +81,7 @@ function Shoes() {
         >
           {filteredData.map((db, index) => (
             <Link
-              to={`/productdetails/${db.id}`}
+              to={`/user/productdetails/${db.id}`}
               key={index}
               className="block product-card bg-gray-700 p-4 rounded-2xl overflow-hidden w-full max-w-72"
             >

@@ -3,14 +3,15 @@ import Slider from "react-slick";
 import "./Home.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Featured from "./Featured";
 import axios from "axios";
+import useGet from '../Hooks/useGet';
 
 function Home() {
-  const [data, setData] = useState([]);
+  const { data: products, loading, error, refetch } = useGet('products','slider');
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
+ console.log()
   // Update window width on resize
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -18,17 +19,7 @@ function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Fetch product slider data
-  useEffect(() => {
-    axios
-      .get("http://localhost:2345/products")
-      .then((response) => {
-        setData(response.data.slider);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
+
 
   // Dynamically set slidesToShow and arrows based on window width
   const slidesToShow = windowWidth < 768 ? 1 : 5;
@@ -54,9 +45,9 @@ function Home() {
         {/* Slider Section */}
         <section className="mb-12">
           <Slider {...settings}>
-            {data.map((db) => (
+            {products.map((db) => (
               <Link
-                to={`/productdetails/${db.id}`}
+                to={`user/productdetails/${db.id}`}
                 key={db.id}
                 className="block px-2"
               >

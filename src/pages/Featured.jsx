@@ -1,25 +1,18 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import useGet from '../Hooks/useGet';
 
 function Featured() {
-  const [data, setData] = useState([]);
+  const { data: products, loading, error, refetch } = useGet('products','featured');
 
-  useEffect(() => {
-    axios
-      .get("http://localhost:2345/products")
-      .then((response) => {
-        setData(response.data.featured);
-      })
-      .catch(console.error);
-  }, []);
 
   return (
     <section className="bg-gray-900 rounded-xl shadow-xl p-5 w-full max-w-full mx-auto">
       <div className="flex items-center justify-between mb-8 px-2 md:px-6">
         <h2 className="text-xl md:text-3xl font-bold text-white">Featured Products</h2>
         <Link
-          to="/search"
+          to="user/search"
           className="text-slate-300 hover:underline font-medium text-xs md:text-base"
         >
           Browse more
@@ -41,12 +34,12 @@ function Featured() {
             mx-auto
           "
         >
-          {data.map((db, index) => (
+          {products.map((db, index) => (
             <div
               key={index}
               className="product-card bg-gray-700 p-4 rounded overflow-hidden w-full"
             >
-              <Link to={`/productdetails/${db.id}`} className="block">
+              <Link to={`user/productdetails/${db.id}`} className="block">
                 <div className="product-card bg-gray-700 rounded overflow-hidden">
                   <img
                     src={db.img}

@@ -1,11 +1,11 @@
 import React, { useContext, useState, useEffect } from "react";
-import { CartContext } from "../context/CartContext";
+import { RemoveContext } from "../context/RemoveContext";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
 function Cart() {
-  let { cartDt, setCartDt } = useContext(CartContext);
+  let { setRemoveDt } = useContext(RemoveContext);
   // State to hold currently logged-in user info fetched from backend
   const [CkUser, setCkUser] = useState({});
 
@@ -51,7 +51,7 @@ function Cart() {
       cart: updatedCart,
     });
     setCkUser({ ...CkUser, cart: updatedCart });
-    if (setCartDt) setCartDt(updatedCart);
+    if (setRemoveDt) setRemoveDt(updatedCart);
   };
   // Calculate totals
   const totalItems = CkUser.cart?.length || 0;
@@ -123,14 +123,22 @@ function Cart() {
             Total Price:{" "}
             <span className="font-bold text-lg">₹ {totalPrice}</span>
           </p>
-          <button
-            className="w-full bg-blue-700 text-white py-3 rounded font-semibold hover:bg-blue-800 transition"
-            onClick={() => {
-              navi("/order");
-            }}
-          >
-            Proceed to Checkout
-          </button>
+          {Array.isArray(CkUser?.cart) && CkUser.cart.length > 0 ? (
+            <button
+              className="w-full bg-green-500 text-white py-3 rounded font-semibold hover:bg-sky-500 transition"
+              onClick={() => {
+                navi("/user/order");
+              }}
+            >
+              Proceed to Checkout
+            </button>
+          ) : (
+            <Link to={"/user/search"}>
+              <span className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors text-base">
+                Add Somthing To The Cart
+              </span>
+            </Link>
+          )}
         </aside>
       </main>
     </div>

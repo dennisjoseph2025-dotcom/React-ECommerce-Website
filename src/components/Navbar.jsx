@@ -18,7 +18,7 @@ function Navbar() {
                     {["Home", "Tops", "Beanie", "Shoes"].map(label => (
                         <NavLink
                             key={label}
-                            to={label === "Home" ? "/" : `/${label.toLowerCase()}`}
+                            to={label === "Home" ? "/" : `user/${label.toLowerCase()}`}
                             className={({ isActive }) =>
                                 `hover:underline hover:text-blue-300 transition duration-200 px-2 py-1 rounded ${
                                     isActive ? "underline text-blue-300 font-bold" : ""
@@ -46,14 +46,14 @@ function Navbar() {
             {/* Icons */}
             <div className="flex flex-1 items-center justify-end space-x-4 ml-4">
                 <NavLink
-                    to="/cart"
+                    to={CkUser?.name ? "user/cart" : "/login"}
                     className="relative p-2 rounded-full   cursor-pointer text-white text-2xl"
                     aria-label="Cart"
                 >
                     <RiShoppingCart2Line />
                 </NavLink>
                 <NavLink
-                    to={CkUser?.name ? "/userprofile" : "/login"}
+                    to={CkUser?.name ? "user/profile" : "/login"}
                     className="p-2 rounded-full  transition cursor-pointer text-white text-2xl"
                     aria-label="User Profile"
                 >

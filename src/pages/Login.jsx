@@ -3,11 +3,13 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../context/userContext";
 import toast from 'react-hot-toast';
+import useGet from '../Hooks/useGet';
 
 function Login() {
   const [data, checkData] = useState([]);
   let { user, setUser } = useContext(UserContext);
   const navi = useNavigate();
+    const { data: products, loading, error, refetch } = useGet('users');
 
   const handleChange = (e) => {
     setUser({
@@ -15,15 +17,11 @@ function Login() {
       [e.target.name]: e.target.value
     });
   };
-
+console.log(products)
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios
-      .get("http://localhost:2345/users")
-      .then((response) => {
-        checkData(response.data);
-        console.log(response.data);
-        const CkUser = response.data.find(
+    
+        const CkUser = products.find(
           (FndUser) =>
             FndUser.name === user.name &&
             FndUser.email === user.email &&
@@ -37,11 +35,6 @@ function Login() {
         } else {
           toast('🧐Unvalied User...')
         }
-      })
-      .catch((error) => {
-        console.error(error);
-      toast('🙁Log-In Failed...')
-      });
   };
 
   return (
