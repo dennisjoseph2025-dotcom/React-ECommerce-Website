@@ -41,9 +41,9 @@ function Searchbar() {
           <option value="All">Type: All</option>
           <option value="oversized shirts">Oversized Shirts</option>
           <option value="oversized polos">Oversized Polos</option>
-          <option value="oversized tshirts">Oversized T-Shirts</option>
+          <option value="oversized t-shirts">Oversized T-Shirts</option>
           <option value="sweatshirts">Sweatshirts</option>
-          <option value="tshirts">T-Shirts</option>
+          <option value="t-shirts">T-Shirts</option>
           <option value="polos">Polos</option>
           <option value="high top sneakers shoes">High-Top Sneakers</option>
           <option value="low top sneakers shoes">Low-Top Sneakers</option>

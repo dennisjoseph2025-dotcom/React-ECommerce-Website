@@ -39,7 +39,19 @@ function Home() {
 
   return (
     <div className="bg-slate-800 min-h-screen p-6">
-      <br />
+            {/* Hero Section with Carousel */}
+      <section className="relative pt-20 pb-16 bg-slate-800">
+        {/* <div className="container mx-auto px-6"> */}
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-400 mb-4">
+              Welcome to Our Store
+            </h1>
+            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+              Discover quality products with exceptional value
+            </p>
+          </div>
+          </section>
+      
       <br />
       <div className="max-w-11/12 mx-auto">
         {/* Slider Section */}

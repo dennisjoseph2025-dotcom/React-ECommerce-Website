@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import { UserContext } from "../context/userContext";
 import { RemoveContext } from "../context/RemoveContext";
-import axios from "axios";
+import useGet from '../Hooks/useGet';
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
 
@@ -10,25 +10,21 @@ const OrderSummary = () => {
   const { user } = useContext(UserContext);
   const CkUser = JSON.parse(localStorage.getItem("user") || "{}");
   let { setRemoveDt } = useContext(RemoveContext);
+  const { data: users, loading, error, refetch } = useGet('users');
 
   useEffect(() => {
-    axios
-      .get("http://localhost:2345/users")
-      .then((response) => {
-        setCkUsers(
-          response.data.find(
-            (FndUser) =>
-              FndUser.name === CkUser.name &&
-              FndUser.email === CkUser.email &&
-              FndUser.password === CkUser.password
-          )
-        );
-      })
-      .catch((error) => {
-        console.error(error);
-        toast("error");
-      });
-  }, []);
+    if (users && users.length > 0 && CkUser.name) {
+      const foundUser = users.find(
+        (FndUser) =>
+          FndUser.name === CkUser.name &&
+          FndUser.email === CkUser.email
+      );
+      setCkUsers(foundUser || {});
+      console.log('Found user:', foundUser);
+    }
+  }, [users, CkUser.name, CkUser.email]);
+
+  console.log('CkUsers:', CkUsers);
 
   const OnDelete = async (ordersetId) => {
     try {

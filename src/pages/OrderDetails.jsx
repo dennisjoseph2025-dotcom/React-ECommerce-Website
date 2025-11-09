@@ -4,35 +4,33 @@ import { UserContext } from "../context/userContext";
 import { RemoveContext } from "../context/RemoveContext";
 import axios from "axios";
 import toast from "react-hot-toast";
+import useGet from '../Hooks/useGet';
 
 const OrderDetails = () => {
+  
   const [CkUsers, setCkUsers] = useState(null); // null means "loading"
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const { ordersetId } = useParams();
   const { user } = useContext(UserContext);
   const CkUser = JSON.parse(localStorage.getItem("user") || "{}");
   let { setRemoveDt } = useContext(RemoveContext);
-
+  const { data: users, loading, error, refetch } = useGet('users');
+  
+  // On component mount, verify and find user from backend users list
   useEffect(() => {
-    setLoading(true);
-    axios
-      .get("http://localhost:2345/users")
-      .then((response) => {
-        const foundUser = response.data.find(
-          (FndUser) =>
-            FndUser.name === CkUser.name &&
-            FndUser.email === CkUser.email &&
-            FndUser.password === CkUser.password
-        );
-        setCkUsers(foundUser || {});
-        setLoading(false);
-      })
-      .catch((error) => {
-        setLoading(false);
-        toast("error");
-      });
-  }, []);
-
+    if (users && users.length > 0 && CkUser.name) {
+      const foundUser = users.find(
+        (FndUser) =>
+          FndUser.name === CkUser.name &&
+        FndUser.email === CkUser.email
+      );
+      setCkUsers(foundUser || {});
+      console.log('Found user:', foundUser);
+    }
+  }, [users, CkUser.name, CkUser.email]);
+  
+  console.log(ordersetId);
+  
   // Loading spinner or message
   if (loading) {
     return (
@@ -41,7 +39,8 @@ const OrderDetails = () => {
       </div>
     );
   }
-
+  
+  (!loading)
   // Not found or no orders
   if (!CkUsers || !Array.isArray(CkUsers.order) || CkUsers.order.length === 0) {
     return (
@@ -50,10 +49,12 @@ const OrderDetails = () => {
       </div>
     );
   }
-
+  
   // Find the order set (AFTER data is loaded)
-  const orderSet = CkUsers.order.find((order) => order.ordersetId === ordersetId);
+  console.log('CkUsers:', CkUsers.order);
+  const orderSet = CkUsers.order.find((order) => order.ordersetId === Number(ordersetId));
   const products = orderSet?.products || [];
+  console.log('orderset:', orderSet);
 
   // Totals
   const totalQuantity = products.reduce((sum, item) => sum + (item.quantity || 1), 0);

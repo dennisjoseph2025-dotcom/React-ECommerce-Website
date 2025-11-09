@@ -16,8 +16,13 @@ const useGet = (endpoint,key) => {
     
     try {
       const response = await axios.get(`${BASE_URL}/${endpoint}`);
+      if (endpoint== "users"){
+        setData(response.data); 
+      }
+      else{
 
         setData(response.data[key]); 
+      }
   
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to fetch data');

@@ -1425,691 +1425,20 @@
   },
   "users": [
     {
-      "id": "76db",
-      "name": "denjo",
+      "id": "admin",
+      "name": "Dennis",
       "email": "dennisjoseph2025@gmail.com",
-      "password": "2025",
-      "address": [],
-      "cart": [],
-      "order": [
-        {
-          "cartId": "d72e8b82-fc3a-45c3-b276-89a3ca7e0953",
-          "id": 103,
-          "name": "Naruto Shippuden: Yin & Yang",
-          "type": "Oversized Shirts",
-          "price": 1699,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
-          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "Soft material, anime prints, loose fit"
-        },
-        {
-          "cartId": "e295ac94-b347-4d55-9113-4a26a10bfa0b",
-          "id": 101,
-          "name": "Naruto: Akatsuki Kimono",
-          "type": "Oversized Shirts",
-          "price": 2199,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
-          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
-        },
-        {
-          "cartId": "92435b2f-401b-4cc0-9b12-7d5d913aff4a",
-          "id": "anti-magic-beanie-5",
-          "name": "Anti Magic Beanie",
-          "type": "Beanie",
-          "price": 599,
-          "img": "https://www.comicsense.store/wp-content/uploads/2024/01/blackclover_antimagic_beanie_listing1_hitanshi-scaled.jpg.webp",
-          "description": "Black Clover Anti Magic beanie, clean and bold winter accessory.",
-          "availability": "In Stock",
-          "sizes": [
-            "Free Size"
-          ],
-          "category": "Anime/Black Clover, Accessories",
-          "features": "Anti Magic motif, flexible, cozy"
-        },
-        {
-          "cartId": "c94536f4-2b6f-4c9f-9cf2-eb73073c67e8",
-          "id": "fantastic-four-quantum-step",
-          "name": "Fantastic 4: Quantum Step",
-          "type": "Men High Top Sneakers Shoes",
-          "price": 3899,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753767995_6259005.jpg?w=480&dpr=2",
-          "description": "Fantastic 4 inspired high-tops. Quantum graphics and comfortable design.",
-          "availability": "In Stock",
-          "sizes": [
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11"
-          ],
-          "category": "Anime/Marvel, Footwear",
-          "features": "Premium synthetic, themed prints, comfortable support"
-        },
-        {
-          "cartId": "f93a0357-a2a8-44a7-baf5-7331f12d6952",
-          "id": 103,
-          "name": "Naruto Shippuden: Yin & Yang",
-          "type": "Oversized Shirts",
-          "price": 1699,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
-          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "Soft material, anime prints, loose fit"
-        },
-        {
-          "cartId": "e35b4b23-1d70-4f7f-a29f-7ee5c043a915",
-          "id": 102,
-          "name": "Naruto Shippuden: Akatsuki Outlaws",
-          "type": "Oversized Polos",
-          "price": 1249,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1739598511_6893197.jpg?w=480&dpr=2",
-          "description": "Naruto inspired polo with Akatsuki Outlaws motif. Classic style for any anime lover.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, Polos",
-          "features": "Premium cotton, Akatsuki cloud print, anime statement look"
-        },
-        {
-          "cartId": "f43c9a57-b418-4550-bd7f-00deb13b52e7",
-          "id": 104,
-          "name": "Demon Slayer: Tanjiro",
-          "type": "Oversized T-Shirts",
-          "price": 1049,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
-          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
-          "availability": "In Stock",
-          "sizes": [
-            "XXS",
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Demon Slayer, T-Shirts",
-          "features": "Bright artwork, boxy fit, 100% cotton"
-        },
-        {
-          "cartId": "94eda00e-ac06-4a30-ab74-24fb9feb5b28",
-          "id": 103,
-          "name": "Naruto Shippuden: Yin & Yang",
-          "type": "Oversized Shirts",
-          "price": 1699,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
-          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "Soft material, anime prints, loose fit"
-        },
-        {
-          "cartId": "feb1d409-1cc6-4c21-9a3c-d69b413061f6",
-          "id": 104,
-          "name": "Demon Slayer: Tanjiro",
-          "type": "Oversized T-Shirts",
-          "price": 1049,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
-          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
-          "availability": "In Stock",
-          "sizes": [
-            "XXS",
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Demon Slayer, T-Shirts",
-          "features": "Bright artwork, boxy fit, 100% cotton"
-        },
-        {
-          "cartId": "c69022a7-d455-4bea-916b-4e16fb2c0edd",
-          "id": 103,
-          "name": "Naruto Shippuden: Yin & Yang",
-          "type": "Oversized Shirts",
-          "price": 1699,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
-          "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "Soft material, anime prints, loose fit"
-        },
-        {
-          "cartId": "7436515f-525b-419c-bd53-254769d2cb0b",
-          "id": 101,
-          "name": "Naruto: Akatsuki Kimono",
-          "type": "Oversized Shirts",
-          "price": 2199,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1761129380_9244187.jpg?w=480&dpr=2",
-          "description": "Official Akatsuki kimono shirt. Oversized fit and vivid Naruto design for anime fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Naruto, Shirts",
-          "features": "100% cotton, oversized fit, authentic Akatsuki print, machine washable"
-        },
-        {
-          "cartId": "3c361969-12d1-4b44-9d35-00e24bebbb65",
-          "id": "black-panther-warrior",
-          "name": "Black Panther: Warrior",
-          "type": "Men High Top Sneakers Shoes",
-          "price": 3499,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
-          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
-          "availability": "In Stock",
-          "sizes": [
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11"
-          ],
-          "category": "Anime/Marvel, Footwear",
-          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
-        },
-        {
-          "cartId": "b4ec8d27-6f93-4dc5-9435-cb63bcfc805b",
-          "id": "black-panther-warrior",
-          "name": "Black Panther: Warrior",
-          "type": "Men High Top Sneakers Shoes",
-          "price": 3499,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1745835316_6953036.jpg?w=480&dpr=2",
-          "description": "Black Panther high-top sneakers featuring premium materials and superhero style.",
-          "availability": "In Stock",
-          "sizes": [
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11"
-          ],
-          "category": "Anime/Marvel, Footwear",
-          "features": "PU upper, soft lining, EVA sole, limited Marvel edition"
-        },
-        {
-          "cartId": "2c58be16-17f9-4bc4-aee4-81ccbb1c3b47",
-          "id": 104,
-          "name": "Demon Slayer: Tanjiro",
-          "type": "Oversized T-Shirts",
-          "price": 1049,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1753182025_2563804.jpg?w=480&dpr=2",
-          "description": "Oversized T-shirt with Tanjiro art from Demon Slayer. Vivid, durable print.",
-          "availability": "In Stock",
-          "sizes": [
-            "XXS",
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL",
-            "XXXL"
-          ],
-          "category": "Anime/Demon Slayer, T-Shirts",
-          "features": "Bright artwork, boxy fit, 100% cotton"
-        },
-        {
-          "cartId": "6389fba6-8c12-4653-8eb2-092ee728984e",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "1adca628-f845-4c48-ba30-6fb57029a78b",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "4828aa1a-0a0b-4b4e-a5f3-f633cc7a4c69",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "ba5ba2b6-4e97-43fd-b611-42d6925e6099",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "8e3fb64b-214a-4f83-936f-fc8aa7a26099",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "0a7122d8-b1c2-419f-834f-47176e6bf824",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "b9893620-1065-4559-b9da-9d5847076aa4",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "c8eecdb8-051c-4aa6-83ef-9337434339ed",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "b88a6d6a-792f-4543-adaa-3c4928a75c84",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "219289fa-285f-4f1a-b02e-7bbc43c80786",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "d6b040f8-255b-47ad-8a91-989cde13544b",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "060e4158-0965-4714-90ac-ecf0dafd1db7",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "d62926ca-2b8c-4021-9de4-614f0854de65",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "7d06512c-db68-4a53-a7df-850bdc44b0fb",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "82b6536a-8438-423d-8696-35c47ad546d6",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "1bd7d781-b9fa-45a2-8d83-8078d8592eea",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "9a5928cd-cca7-4f1b-98de-bb87354b02b5",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "b65aefcc-16b7-4a39-b31f-040d6e198b95",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "b6e3850e-3a5c-43dd-8e21-fc431f2c1048",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        },
-        {
-          "cartId": "b7cb3db3-1a43-46d7-be07-13c19fa44970",
-          "id": 106,
-          "name": "Naruto Shippuden: Hokage Dream",
-          "type": "Oversized T-Shirts",
-          "price": 999,
-          "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1737790066_6304160.jpg?w=480&dpr=2",
-          "description": "Hokage Dream tee. Oversized, comfortable, and ideal for Naruto fans.",
-          "availability": "In Stock",
-          "sizes": [
-            "M",
-            "L",
-            "XL",
-            "XXL"
-          ],
-          "category": "Anime/Naruto, T-Shirts",
-          "features": "Soft cotton, oversized fit, crisp Naruto graphics"
-        }
-      ]
-    },
-    {
-      "id": "1821",
-      "name": "kmbikj",
-      "email": "jhbkjoi@gmail.com",
-      "password": "8789799",
-      "address": [],
-      "cart": [],
-      "order": []
+      "password": "2025"
     },
     {
       "id": "257b",
       "name": "denjo",
       "email": "dennisjoseph2025@gmail.com",
       "password": "2520",
+      "date": "Sun Nov 09 2025 15:55:49 GMT+0530 (India Standard Time)",
+      "numberOfOrders": 12,
       "address": [],
-      "cart": [
-        {
-          "cartId": "0dadaa3d-8782-4e3b-9785-88aafd6abe8c",
-          "id": "fe1f735a",
-          "name": "Jujutsu Sorcerer Beanie",
-          "type": "Beanie",
-          "price": 599,
-          "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp",
-          "description": "Jujutsu Kaisen sorcerer beanie—classic winterwear with anime flair.",
-          "availability": "In Stock",
-          "sizes": "Free Size",
-          "category": "Anime/Jujutsu Kaisen, Accessories",
-          "features": "Elastic knit, logo embroidery, lightweight, anime collector style",
-          "quantity": 1
-        }
-      ],
+      "cart": [],
       "order": [
         {
           "ordersetId": 1762500613066,
@@ -2154,26 +1483,102 @@
           "status": "Order Canceled",
           "quantity": 1,
           "totalPrice": 3499
+        },
+        {
+          "ordersetId": 1762676314546,
+          "products": [
+            {
+              "orderId": "9f21d95f-21a6-4957-a796-b4e56c5c3b15",
+              "id": "fe1f735a",
+              "name": "Jujutsu Sorcerer Beanie",
+              "type": "Beanie",
+              "price": 599,
+              "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp",
+              "description": "Jujutsu Kaisen sorcerer beanie—classic winterwear with anime flair.",
+              "availability": "In Stock",
+              "sizes": "Free Size",
+              "category": "Anime/Jujutsu Kaisen, Accessories",
+              "features": "Elastic knit, logo embroidery, lightweight, anime collector style",
+              "quantity": 1
+            }
+          ],
+          "status": "Ordered",
+          "quantity": 1,
+          "totalPrice": 599
+        },
+        {
+          "ordersetId": 1762684669647,
+          "products": [
+            {
+              "orderId": "1e9afb64-c77d-4c92-8b16-a4f2fe0af2f9",
+              "id": "fe1f735a",
+              "name": "Jujutsu Sorcerer Beanie",
+              "type": "Beanie",
+              "price": 599,
+              "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp",
+              "description": "Jujutsu Kaisen sorcerer beanie—classic winterwear with anime flair.",
+              "availability": "In Stock",
+              "sizes": "Free Size",
+              "category": "Anime/Jujutsu Kaisen, Accessories",
+              "features": "Elastic knit, logo embroidery, lightweight, anime collector style",
+              "quantity": 1
+            },
+            {
+              "orderId": "400ee0ba-f618-43e7-a206-745b8c9b9b9e",
+              "id": 103,
+              "name": "Naruto Shippuden: Yin & Yang",
+              "type": "Oversized Shirts",
+              "price": 1699,
+              "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+              "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+              "availability": "In Stock",
+              "sizes": "S",
+              "category": "Anime/Naruto, Shirts",
+              "features": "Soft material, anime prints, loose fit",
+              "quantity": 2
+            },
+            {
+              "orderId": "1e572aa9-908e-429f-b7eb-0b0f75293b49",
+              "id": 103,
+              "name": "Naruto Shippuden: Yin & Yang",
+              "type": "Oversized Shirts",
+              "price": 1699,
+              "img": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1759403776_9816785.jpg?w=480&dpr=2",
+              "description": "Modern oversized shirt with Naruto Yin & Yang design. Perfect for standout street style.",
+              "availability": "In Stock",
+              "sizes": "S",
+              "category": "Anime/Naruto, Shirts",
+              "features": "Soft material, anime prints, loose fit",
+              "quantity": 2
+            }
+          ],
+          "status": "Ordered",
+          "quantity": 5,
+          "totalPrice": 7395
+        },
+        {
+          "ordersetId": 1762684911650,
+          "products": [
+            {
+              "orderId": "b5d295b5-8152-4204-8c88-657a4d0f17a9",
+              "id": "fe1f735a",
+              "name": "Jujutsu Sorcerer Beanie",
+              "type": "Beanie",
+              "price": 599,
+              "img": "https://www.comicsense.store/wp-content/uploads/2023/12/jjk_beanie_lsiting3_hitanshi-scaled.jpg.webp",
+              "description": "Jujutsu Kaisen sorcerer beanie—classic winterwear with anime flair.",
+              "availability": "In Stock",
+              "sizes": "Free Size",
+              "category": "Anime/Jujutsu Kaisen, Accessories",
+              "features": "Elastic knit, logo embroidery, lightweight, anime collector style",
+              "quantity": 4
+            }
+          ],
+          "status": "Ordered",
+          "quantity": 4,
+          "totalPrice": 2396
         }
       ]
-    },
-    {
-      "id": "92ef",
-      "name": "denjo",
-      "email": "jhkh@g.com",
-      "password": "12345678+9",
-      "address": [],
-      "cart": [],
-      "order": []
-    },
-    {
-      "id": "f709",
-      "name": "dennis",
-      "email": "dennisjoseph2025@gmail.com",
-      "password": "123456789",
-      "address": [],
-      "cart": [],
-      "order": []
     }
   ]
 }

@@ -23,6 +23,8 @@ function Signup() {
         name: user.name,
         email: user.email,
         password: user.password,
+        date: new Date(),
+        numberOfOrders:0,
         address: [],
         cart: [],
         order: []

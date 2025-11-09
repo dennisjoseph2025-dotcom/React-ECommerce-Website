@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import useGet from '../Hooks/useGet';
 import toast from "react-hot-toast";
 
-const UserProfile = () => {
+const AdminUserProfile = () => {
   const [data, checkData] = useState([]);
   const [CkUsers, setCkUsers] = useState({});
   let { user, setUser } = useContext(UserContext);
@@ -97,4 +97,4 @@ const UserProfile = () => {
   );
 };
 
-export default UserProfile;
+export default AdminUserProfile;

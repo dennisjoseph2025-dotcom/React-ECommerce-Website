@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import toast from 'react-hot-toast';
 import { useNavigate } from "react-router-dom";
+import useGet from '../Hooks/useGet';
 
 const OrderPage = () => {
   const navi = useNavigate()
@@ -11,28 +12,24 @@ const OrderPage = () => {
 
   // Get logged-in user info stored in localStorage (fallback to empty object)
   const user = JSON.parse(localStorage.getItem("user") || "{}");
+  const { data: users, loading, error, refetch } = useGet('users');
 
   // On component mount, verify and find user from backend users list
   useEffect(() => {
-    axios
-      .get("http://localhost:2345/users")
-      .then((response) => {
-        // Find the user matching stored user credentials
-        const foundUser = response.data.find(
-          (FndUser) =>
-            FndUser.name === user.name &&
-            FndUser.email === user.email &&
-            FndUser.password === user.password
-        );
-        setCkUser(foundUser);
-        console.log("Found user:", foundUser);
-      })
-      .catch((error) => {
-        console.error(error);
-        toast('🧐No User Found...');
-      });
-  }, []);
-  console.log(CkUser);
+    if (users && users.length > 0 && user.name) {
+      const foundUser = users.find(
+        (FndUser) =>
+          FndUser.name === user.name &&
+        FndUser.email === user.email
+      );
+      setCkUser(foundUser || {});
+      console.log('Found user:', foundUser);
+    }
+  }, [users, user.name, user.email]);
+  console.log(users)
+
+  console.log('CkUsers:', CkUser);
+  
   const totalPrice =
     CkUser.cart?.reduce(
       (sum, item) => sum + item.price * (item.quantity || 1),
@@ -51,7 +48,7 @@ const PlaceOrder = async (e) => {
     // Fetch current user data
     const resUser = await axios.get(`http://localhost:2345/users/${CkUser.id}`);
     const currentOrders = resUser.data.order || [];
-    
+    const NewNumberOfOrders= CkUser.numberOfOrders + totalQuantity;
     // Map current cart to new order items
     const newOrderItems = CkUser.cart.map(ct => ({
       orderId: uuidv4(),
@@ -81,6 +78,7 @@ const PlaceOrder = async (e) => {
 
     // PATCH user's orders and clear cart
     await axios.patch(`http://localhost:2345/users/${CkUser.id}`, {
+      numberOfOrders:NewNumberOfOrders,
       order: updatedOrders,
       cart: []
     });

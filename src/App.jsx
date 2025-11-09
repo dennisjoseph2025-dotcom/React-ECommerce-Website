@@ -21,7 +21,12 @@ import OrderPage from "./pages/Order";
 import { Toaster } from "react-hot-toast";
 import OrderSummary from "./pages/OrderSummery";
 import OrderDetails from "./pages/OrderDetails";
-import AdminHome from "./adminSide/home";
+import AdminHome from "./adminSide/AdminHome";
+import AdminUserProfile from "./adminSide/AdminUserProfile";
+import Products from "./adminSide/WebsiteProducts";
+import Orders from "./adminSide/WebsiteOrders";
+import Analytics from "./adminSide/WebsiteAnalytics";
+import Users from "./adminSide/WebsiteUserDetails";
 
 function App() {
   const location = useLocation();
@@ -43,7 +48,11 @@ function App() {
   const noNavbar =
     location.pathname === "/login" ||
     location.pathname === "/signup" ||
-    location.pathname === "/admin/home" ||
+    location.pathname === "/admin" ||
+    location.pathname === "/admin/users" ||
+    location.pathname === "/admin/analytics" ||
+    location.pathname === "/admin/products" ||
+    location.pathname === "/admin/orders" ||
     location.pathname === "*";
   // const {id} = useParams()
   return (
@@ -69,7 +78,12 @@ function App() {
             <Route path="user/ordersummery" element={<OrderSummary />} />
             <Route path="user/orderdetails/:ordersetId" element={<OrderDetails />} />
             <Route path="user/productdetails/:id" element={<ProductDetails />} />
-            <Route path="/admin/home" element={<AdminHome />} />
+            <Route path="/admin" element={<AdminHome />} />
+            <Route path="/admin/products"element={<Products/>}/>
+            <Route path="/admin/orders"element={<Orders/>}/>
+            <Route path="/admin/analytics"element={<Analytics/>}/>
+            <Route path="/admin/users"element={<Users/>}/>
+            <Route path="/admin/profile" element={<AdminUserProfile />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
 

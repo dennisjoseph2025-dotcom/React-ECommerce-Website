@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { RemoveContext } from "../context/RemoveContext";
 import { v4 as uuidv4 } from "uuid";
 import toast from "react-hot-toast";
-
+import useGet from '../Hooks/useGet';
 function ProductDetails() {
   const [quantity, setQuantity] = useState(1);
   // Extract product ID from route params
@@ -22,26 +22,20 @@ function ProductDetails() {
   // Get logged-in user info stored in localStorage (fallback to empty object)
   const user = JSON.parse(localStorage.getItem("user") || "{}");
   const [selectedSize, setSelectedSize] = useState("");
+   const { data: users, loading, error, refetch } = useGet('users');
   // On component mount, verify and find user from backend users list
-  useEffect(() => {
-    axios
-      .get("http://localhost:2345/users")
-      .then((response) => {
-        // Find the user matching stored user credentials
-        const foundUser = response.data.find(
-          (FndUser) =>
-            FndUser.name === user.name &&
-            FndUser.email === user.email &&
-            FndUser.password === user.password
-        );
-        setCkUser(foundUser);
-        console.log("Found user:", foundUser);
-      })
-      .catch((error) => {
-        console.error(error);
-        alert("Login failed!");
-      });
-  }, []);
+useEffect(() => {
+    if (users && users.length > 0 && user.name) {
+      const foundUser = users.find(
+        (FndUser) =>
+          FndUser.name === user.name &&
+        FndUser.email === user.email
+      );
+      setCkUser(foundUser || {});
+      console.log('Found user:', foundUser);
+    }
+  }, [users, user.name, user.email]);
+  console.log(users)
 
   // Debug: log cart updates to console
   useEffect(() => {
