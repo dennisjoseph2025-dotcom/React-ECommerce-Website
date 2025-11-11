@@ -16,12 +16,10 @@ const useGet = (endpoint,key) => {
     
     try {
       const response = await axios.get(`${BASE_URL}/${endpoint}`);
-      if (endpoint== "users"){
-        setData(response.data); 
-      }
-      else{
-
-        setData(response.data[key]); 
+      if (key && response.data[key]) {
+        setData(response.data[key]);
+      } else {
+        setData(response.data);
       }
   
     } catch (err) {

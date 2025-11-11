@@ -27,6 +27,7 @@ import Products from "./adminSide/WebsiteProducts";
 import Orders from "./adminSide/WebsiteOrders";
 import Analytics from "./adminSide/WebsiteAnalytics";
 import Users from "./adminSide/WebsiteUserDetails";
+import AdminNavbar from "./adminSide/Components/AdminNavbar";
 
 function App() {
   const location = useLocation();
@@ -48,26 +49,27 @@ function App() {
   const noNavbar =
     location.pathname === "/login" ||
     location.pathname === "/signup" ||
-    location.pathname === "/admin" ||
-    location.pathname === "/admin/users" ||
-    location.pathname === "/admin/analytics" ||
-    location.pathname === "/admin/products" ||
-    location.pathname === "/admin/orders" ||
+    location.pathname.startsWith("/admin") ||
     location.pathname === "*";
+  const noAdminNavbar =
+    location.pathname === "/login" ||
+    location.pathname === "/signup" ||
+    location.pathname === "/" ||
+    location.pathname.startsWith("/user") ||
+    location.pathname === "*";
+
   // const {id} = useParams()
   return (
     <div className="bg-slate-800 w-full">
       <UserContext.Provider value={{ user, setUser }}>
         <RemoveContext.Provider value={{ removeDt, setRemoveDt }}>
-          <Toaster/>
-          {!noNavbar && <Navbar />}
-
-          <br />
+          <Toaster />
+          {!noNavbar && <Navbar/>}
+          {!noAdminNavbar && <AdminNavbar />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-
             <Route path="user/beanie" element={<Beanie />} />
             <Route path="user/shoes" element={<Shoes />} />
             <Route path="user/tops" element={<Tops />} />
@@ -76,13 +78,19 @@ function App() {
             <Route path="user/order" element={<OrderPage />} />
             <Route path="user/profile" element={<UserProfile />} />
             <Route path="user/ordersummery" element={<OrderSummary />} />
-            <Route path="user/orderdetails/:ordersetId" element={<OrderDetails />} />
-            <Route path="user/productdetails/:id" element={<ProductDetails />} />
+            <Route
+              path="user/orderdetails/:ordersetId"
+              element={<OrderDetails />}
+            />
+            <Route
+              path="user/productdetails/:id"
+              element={<ProductDetails />}
+            />
             <Route path="/admin" element={<AdminHome />} />
-            <Route path="/admin/products"element={<Products/>}/>
-            <Route path="/admin/orders"element={<Orders/>}/>
-            <Route path="/admin/analytics"element={<Analytics/>}/>
-            <Route path="/admin/users"element={<Users/>}/>
+            <Route path="/admin/products" element={<Products />} />
+            <Route path="/admin/orders" element={<Orders />} />
+            <Route path="/admin/analytics" element={<Analytics />} />
+            <Route path="/admin/users" element={<Users />} />
             <Route path="/admin/profile" element={<AdminUserProfile />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>

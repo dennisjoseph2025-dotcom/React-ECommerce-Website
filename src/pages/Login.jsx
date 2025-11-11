@@ -42,8 +42,13 @@ function Login() {
       CkUser.password == "2025"
     ) {
       toast("👑 Welcome Back Admin");
-      navi("/admin/home");
-    } else {
+      navi("/admin");
+    }
+     
+    else if (
+      CkUser.status === "Active" 
+
+    ) {
         toast("😎Logi-In Successfull...");
         setUser({
           name: CkUser.name,
@@ -54,6 +59,9 @@ function Login() {
         navi("/");
        
     }
+      else {
+      toast("This User Has Been Suspended Or Been Blocked");
+    } 
   };
 
   return (
