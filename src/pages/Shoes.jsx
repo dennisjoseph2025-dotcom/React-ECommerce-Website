@@ -15,8 +15,15 @@ function Shoes() {
     axios
       .get("http://localhost:2345/products")
       .then((response) => {
-        setData(response.data.shoes);
-        setFilteredData(response.data.shoes);
+        const products = response.data;
+
+              const getShoes = (products) => products.filter(product => 
+        product.type.includes('Sneakers') || 
+        product.type.includes('Shoes')
+      );
+        const shoes = getShoes(products)
+        setData(shoes);
+        setFilteredData(shoes);
       })
       .catch(console.error);
   }, []);

@@ -1,7 +1,8 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import useGet from "../Hooks/useGet";
 
@@ -114,14 +115,14 @@ CkUser.cart.map(async (ct) => {
         cart: [],
       }));
 
-      toast("😎Order Placed...");
+      toast.success("😎Order Placed...");
       navi("/");
     } catch (error) {
       console.error(
         "Error placing order:",
         error.response?.data || error.message
       );
-      toast("🙁Failed to place order...");
+      toast.error("🙁Failed to place order...");
     }
   };
 

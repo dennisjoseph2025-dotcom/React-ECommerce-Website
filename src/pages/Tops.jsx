@@ -15,8 +15,18 @@ function Tops() {
     axios
       .get("http://localhost:2345/products")
       .then((response) => {
-        setData(response.data.tops);
-        setFilteredData(response.data.tops);
+        const products = response.data;
+      
+      const getTops = (products) => products.filter(product => 
+        product.type.includes('Shirt') || 
+        product.type.includes('Polo') ||
+        product.type.includes('Sweatshirts') ||
+        product.type.includes('Hoodies') ||
+        product.type.includes('T-Shirts')
+      );
+      const tops= getTops(products)
+        setData(tops);
+        setFilteredData(tops);
       })
       .catch(console.error);
   }, []);

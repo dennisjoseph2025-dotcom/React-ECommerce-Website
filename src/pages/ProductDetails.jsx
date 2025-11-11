@@ -3,7 +3,8 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import { RemoveContext } from "../context/RemoveContext";
 import { v4 as uuidv4 } from "uuid";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import useGet from '../Hooks/useGet';
 function ProductDetails() {
   const [quantity, setQuantity] = useState(1);
@@ -48,7 +49,7 @@ useEffect(() => {
       .get("http://localhost:2345/products")
       .then((response) => {
         // Assuming products are in response.data.all array
-        const foundProduct = response.data.all.find(
+        const foundProduct = response.data.find(
           (p) => p.id.toString() === id
         );
         setProduct(foundProduct);
@@ -108,7 +109,7 @@ useEffect(() => {
       await axios.patch(`http://localhost:2345/users/${CkUser.id}`, {
         cart: updatedCart,
       });
-      toast("😎Added To Cart...");
+      toast.success("Added To Cart...");
       setRemoveDt(updatedCart); // update whole cart context
     } catch (error) {
       toast.error("Failed to add to cart. Please log in.");
@@ -175,14 +176,18 @@ useEffect(() => {
               ))}
             </select>
 
-
-          <button
+         {product.availability === "Out of Stock" ?
+         <span className="bg-red-500 text-white hover:text-black px-6 py-2 rounded hover:bg-red-500 transition mb-3 font-bold font-serif text-lg">
+          The Product Is Out-Of Stock
+         </span>
+         :<button
             className="bg-green-500 text-white px-6 py-2 rounded hover:bg-sky-500 transition mb-3 font-bold font-serif text-lg"
             type="button"
             onClick={AddCart}
           >
             Add to Cart
-          </button>
+          </button>}
+          
 
           <ul className="text-gray-500 space-y-1 text-base font-mono">
             <li>

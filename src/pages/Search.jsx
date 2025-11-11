@@ -15,8 +15,8 @@ function Search() {
     axios
       .get("http://localhost:2345/products")
       .then((response) => {
-        setData(response.data.all);
-        setFilteredData(response.data.all);
+        setData(response.data);
+        setFilteredData(response.data);
       })
       .catch(console.error);
   }, []);

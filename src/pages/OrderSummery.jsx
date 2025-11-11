@@ -1,76 +1,93 @@
 import React, { useContext, useState, useEffect } from "react";
 import { UserContext } from "../context/userContext";
 import { RemoveContext } from "../context/RemoveContext";
-import useGet from '../Hooks/useGet';
+import useGet from "../Hooks/useGet";
 import { Link } from "react-router-dom";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const OrderSummary = () => {
   const [CkUsers, setCkUsers] = useState({});
   const { user } = useContext(UserContext);
   const CkUser = JSON.parse(localStorage.getItem("user") || "{}");
   let { setRemoveDt } = useContext(RemoveContext);
-  const { data: users, loading, error, refetch } = useGet('users');
+  const { data: users, loading, error, refetch } = useGet("users");
 
   useEffect(() => {
     if (users && users.length > 0 && CkUser.name) {
       const foundUser = users.find(
         (FndUser) =>
-          FndUser.name === CkUser.name &&
-          FndUser.email === CkUser.email
+          FndUser.name === CkUser.name && FndUser.email === CkUser.email
       );
       setCkUsers(foundUser || {});
-      console.log('Found user:', foundUser);
+      console.log("Found user:", foundUser);
     }
   }, [users, CkUser.name, CkUser.email]);
 
-  console.log('CkUsers:', CkUsers);
+  console.log("CkUsers:", CkUsers);
 
   const OnDelete = async (ordersetId) => {
     try {
-      const updatedOrder = CkUsers.order.filter(
-        (orderSet) => orderSet.ordersetId !== ordersetId ? orderSet.status=orderSet.status : orderSet.status="Order Canceled"
-      );
+      console.log("Cancelling order:", ordersetId);
+      console.log("Current user ID:", CkUsers.id);
+      console.log("Current orders:", CkUsers.order);
 
-      await axios.patch(`http://localhost:2345/users/${CkUsers.id}`, {
-        order: updatedOrder,
+      const updatedOrder = CkUsers.order.map((orderSet) => {
+        if (orderSet.ordersetId === ordersetId) {
+          const updatedProducts = orderSet.products.map((product) => ({
+            ...product,
+            status: "Order Canceled",
+          }));
+
+          return {
+            ...orderSet,
+            products: updatedProducts,
+          };
+        }
+        return orderSet;
       });
+
+      console.log("Updated orders to send:", updatedOrder);
+
+      const response = await axios.patch(
+        `http://localhost:2345/users/${CkUsers.id}`,
+        {
+          order: updatedOrder,
+        }
+      );
+      // Update websiteOrders - find all entries with this ordersetId and update them
+      const websiteOrdersToUpdate =
+        CkUsers.order.find((order) => order.ordersetId === ordersetId)
+          ?.products || [];
+
+      // Update each websiteOrder entry individually
+      for (const product of websiteOrdersToUpdate) {
+        await axios.patch(
+          `http://localhost:2345/websiteOrders/${product.orderId}`,
+          {
+            status: "Order Canceled",
+          }
+        );
+      }
+
+      console.log("Server response:", response);
 
       setCkUsers((prev) => ({
         ...prev,
         order: updatedOrder,
       }));
 
-      if (setRemoveDt) {
-        setRemoveDt(updatedOrder);
-      }
+      toast.success("Order cancelled successfully!");
     } catch (error) {
-      console.error("Error deleting order:", error);
+      console.error("Error cancelling order:", error);
+      console.error("Error response:", error.response);
+      toast.error("Failed to cancel order");
     }
   };
-
-  const overallTotal = Array.isArray(CkUsers.order)
-    ? CkUsers.order.reduce(
-        (sum, orderSet) =>
-          sum +
-          (Array.isArray(orderSet.products)
-            ? orderSet.products.reduce(
-                (s, item) => s + item.price * (item.quantity || 1),
-                0
-              )
-            : 0),
-        0
-      )
-    : 0;
   // Sort orders by ordersetId (newest first)
-  const sortedOrders = Array.isArray(CkUsers.order) 
-    ? [...CkUsers.order].sort((a, b) => {
-        // For string IDs (like UUIDs)
-        return b.ordersetId -a.ordersetId;
-        
-        // If ordersetId is numeric/timestamp, use this instead:
-        // return b.ordersetId - a.ordersetId;
-      })
+  const sortedOrders = Array.isArray(CkUsers.order)
+    ? [...CkUsers.order].reverse()
     : [];
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center px-4 font-sans">
@@ -101,15 +118,15 @@ const OrderSummary = () => {
                     </div>
 
                     {/* Link wrapping the products list */}
-                    <Link
+                    {/* <Link
                       to={`/user/orderdetails/${order.ordersetId}`}
                       className="flex items-center gap-5 flex-wrap"
-                    >
+                    > */}
                       <ul className="flex flex-col space-y-4 grow min-w-0">
                         {Array.isArray(order.products) &&
                           order.products.map((item, idx) => (
                             <li
-                              key={item.orderId || idx}
+                              key={item.orderId + idx}
                               className="flex items-center justify-between py-3"
                             >
                               <img
@@ -124,6 +141,9 @@ const OrderSummary = () => {
                                 <span className="text-lg text-gray-600 mt-1">
                                   Qty: {item.quantity || 1}
                                 </span>
+                                <span className="text-lg text-gray-600 mt-1">
+                                  {item.status}
+                                </span>
                               </div>
                               <div className="flex flex-col items-end">
                                 <span className="text-xl font-semibold">
@@ -136,7 +156,7 @@ const OrderSummary = () => {
                             </li>
                           ))}
                       </ul>
-                    </Link>
+                    {/* </Link> */}
 
                     {/* Order summary section */}
                     <div className="font-semibold mt-4">
@@ -159,16 +179,22 @@ const OrderSummary = () => {
                             .toFixed(2)
                         : "0.00"}
                     </div>
-                    {order.status == "Ordered" ? (
+                    {order.products.some(
+                      (item) =>
+                        item.status === "Processing" ||
+                        item.status === "Ordered" ||
+                        item.status === "Suspended" ||
+                        item.status === "Shipped"
+                    ) ? (
                       <button
-                        className="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-sky-700  transition-colors text-base"
+                        className="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-sky-700 transition-colors text-base"
                         onClick={() => OnDelete(order.ordersetId)}
                       >
                         Cancel Order
                       </button>
                     ) : (
                       <span className="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors text-base">
-                        {order.status}
+                        Order Canceled
                       </span>
                     )}
                   </li>

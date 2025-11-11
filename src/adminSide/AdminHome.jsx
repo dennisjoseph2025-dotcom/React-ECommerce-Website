@@ -1,11 +1,12 @@
 // components/admin/AdminDashboard.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import useGet from "../Hooks/useGet";
 const AdminHome = () => {
   const { data: users, loading, error, refetch } = useGet("users");
-  const { data: products } = useGet("products", "all");
+  const { data: products } = useGet("products");
   const { data: websiteOrders } = useGet("websiteOrders");
   const nav = useNavigate();
   const navigate = useNavigate();

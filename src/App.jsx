@@ -28,6 +28,8 @@ import Orders from "./adminSide/WebsiteOrders";
 import Analytics from "./adminSide/WebsiteAnalytics";
 import Users from "./adminSide/WebsiteUserDetails";
 import AdminNavbar from "./adminSide/Components/AdminNavbar";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const location = useLocation();
@@ -64,6 +66,19 @@ function App() {
       <UserContext.Provider value={{ user, setUser }}>
         <RemoveContext.Provider value={{ removeDt, setRemoveDt }}>
           <Toaster />
+                <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+
+      />
           {!noNavbar && <Navbar/>}
           {!noAdminNavbar && <AdminNavbar />}
           <Routes>

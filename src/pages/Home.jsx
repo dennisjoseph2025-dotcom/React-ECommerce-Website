@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Featured from "./Featured";
-import axios from "axios";
 import useGet from '../Hooks/useGet';
 
 function Home() {
-  const { data: products, loading, error, refetch } = useGet('products','slider');
+  const { data: products, loading, error, refetch } = useGet('products');
+  const slider = products.filter(product => product.status.includes('slider')) 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
  console.log()
   // Update window width on resize
@@ -57,7 +57,7 @@ function Home() {
         {/* Slider Section */}
         <section className="mb-12">
           <Slider {...settings}>
-            {products.map((db) => (
+            {slider.map((db) => (
               <Link
                 to={`user/productdetails/${db.id}`}
                 key={db.id}

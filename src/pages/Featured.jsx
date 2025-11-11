@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import useGet from '../Hooks/useGet';
 
 function Featured() {
-  const { data: products, loading, error, refetch } = useGet('products','featured');
-
+  const { data: products, loading, error, refetch } = useGet('products');
+const featured = products.filter(product => product.status.includes('featured')) 
 
   return (
     <section className="bg-gray-900 rounded-xl shadow-xl p-5 w-full max-w-full mx-auto">
@@ -34,7 +34,7 @@ function Featured() {
             mx-auto
           "
         >
-          {products.map((db, index) => (
+          {featured.map((db, index) => (
             <div
               key={index}
               className="product-card bg-gray-700 p-4 rounded overflow-hidden w-full"

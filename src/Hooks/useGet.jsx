@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const useGet = (endpoint,key) => {
+const useGet = (endpoint) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -16,12 +16,7 @@ const useGet = (endpoint,key) => {
     
     try {
       const response = await axios.get(`${BASE_URL}/${endpoint}`);
-      if (key && response.data[key]) {
-        setData(response.data[key]);
-      } else {
-        setData(response.data);
-      }
-  
+        setData(response.data);  
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to fetch data');
       console.error('Fetch Error:', err);
@@ -40,7 +35,7 @@ const useGet = (endpoint,key) => {
     if (endpoint) {
       fetchData();
     }
-  }, [endpoint, key]);
+  }, [endpoint]);
 
   return {
     data,

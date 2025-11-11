@@ -2,8 +2,8 @@ import React, { useContext, useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { UserContext } from "../context/userContext";
 import { RemoveContext } from "../context/RemoveContext";
-import axios from "axios";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import useGet from '../Hooks/useGet';
 
 const OrderDetails = () => {

@@ -3,11 +3,14 @@ import useGet from "../Hooks/useGet";
 import Modal from "react-modal";
 import axios from "axios";
 
-
 // Make sure to set the app element for accessibility
 Modal.setAppElement("#root");
 
 const Users = () => {
+  const [search, setSearch] = useState("")
+  const [currentPage, setCurrentPage] = useState(1); // Current page state
+  const [itemsPerPage, setItemsPerPage] = useState(5); // Items per page state
+  
   const { data: users, loading, error, refetch } = useGet("users");
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,6 +19,77 @@ const Users = () => {
     status: "Active",
   });
   const [isProcessing, setIsProcessing] = useState(false); // Add loading state for operations
+
+  const handleSearchChange = (e) => {
+    const { value } = e.target;
+    setSearch(value); // Set string value directly
+    setCurrentPage(1); // Reset to first page when searching
+  };
+
+  // Filter users based on search
+  const SearchedUsers = users?.filter(user => 
+    user.name.toLowerCase().includes(search.toLowerCase()) ||
+    user.email.toLowerCase().includes(search.toLowerCase()) ||
+    user.status.toLowerCase().includes(search.toLowerCase())
+  ) || [];
+
+  // Pagination calculations
+  const totalItems = SearchedUsers.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  
+  // Get current page items
+  const currentItems = SearchedUsers.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+
+  // Change page
+  const goToPage = (pageNumber) => {
+    if (pageNumber >= 1 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+    }
+  };
+
+  // Generate page numbers to display (max 5 pages)
+  const getPageNumbers = () => {
+    const pages = [];
+    const maxVisiblePages = 5;
+    
+    if (totalPages <= maxVisiblePages) {
+      // Show all pages if total pages are less than max visible
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      // Show limited pages with ellipsis
+      if (currentPage <= 3) {
+        // Near the start
+        for (let i = 1; i <= 4; i++) {
+          pages.push(i);
+        }
+        pages.push('...');
+        pages.push(totalPages);
+      } else if (currentPage >= totalPages - 2) {
+        // Near the end
+        pages.push(1);
+        pages.push('...');
+        for (let i = totalPages - 3; i <= totalPages; i++) {
+          pages.push(i);
+        }
+      } else {
+        // In the middle
+        pages.push(1);
+        pages.push('...');
+        for (let i = currentPage - 1; i <= currentPage + 1; i++) {
+          pages.push(i);
+        }
+        pages.push('...');
+        pages.push(totalPages);
+      }
+    }
+    
+    return pages;
+  };
 
   const openEditModal = (user) => {
     setSelectedUser(user);
@@ -31,7 +105,7 @@ const Users = () => {
     setIsProcessing(true);
     try {
       await axios.delete(`http://localhost:2345/users/${selectedUser.id}`);
-       refetch(); // Wait for refetch to complete
+      refetch(); // Wait for refetch to complete
       closeModal();
       // Optional: Show success message
       console.log("User deleted successfully");
@@ -60,7 +134,7 @@ const Users = () => {
       await axios.patch(`http://localhost:2345/users/${selectedUser.id}`, {
         status: formData.status,
       });
-     refetch(); // Wait for refetch to complete
+      refetch(); // Wait for refetch to complete
       closeModal();
       console.log("User status updated successfully");
     } catch (error) {
@@ -112,8 +186,6 @@ const Users = () => {
         <h1 className="text-3xl font-bold text-gray-100 mb-2">
           User Management
         </h1>
-        {/* Add refresh button */}
-        
       </div>
 
       {/* Stats Overview */}
@@ -189,19 +261,40 @@ const Users = () => {
       <div className="bg-white rounded-xl shadow-sm border">
         <div className="p-6 border-b">
           <div className="flex justify-between items-center">
-            <h3 className="text-xl font-bold text-gray-800">All Users</h3>
+            <h3 className="text-xl font-bold text-gray-800">
+              {search 
+                ? `Search Results (${totalItems})` 
+                : `All Users (${users?.length || 0})`
+              }
+            </h3>
             <div className="flex space-x-3">
               <input
                 type="text"
                 placeholder="Search users..."
+                value={search}
+                onChange={handleSearchChange}
                 className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
               />
+              {/* Items per page selector */}
+              <select
+                value={itemsPerPage}
+                onChange={(e) => {
+                  setItemsPerPage(Number(e.target.value));
+                  setCurrentPage(1); // Reset to first page when changing items per page
+                }}
+                className="border px-3 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              >
+                <option value="5">5 per page</option>
+                <option value="10">10 per page</option>
+                <option value="20">20 per page</option>
+                <option value="50">50 per page</option>
+              </select>
               <button 
-          onClick={refetch}
-          className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-        >
-          Refresh
-        </button>
+                onClick={refetch}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              >
+                Refresh
+              </button>
             </div>
           </div>
         </div>
@@ -231,7 +324,7 @@ const Users = () => {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              {users.map((user) => (
+              {currentItems.reverse().map((user) => (
                 <tr
                   key={user.id}
                   className="hover:bg-gray-50 transition-colors"
@@ -286,7 +379,63 @@ const Users = () => {
               ))}
             </tbody>
           </table>
+
+          {/* No results message */}
+          {currentItems.length === 0 && (
+            <div className="text-center py-8 text-gray-500">
+              {search ? "No users found matching your search" : "No users available"}
+            </div>
+          )}
         </div>
+
+        {/* Pagination Controls */}
+        {totalItems > 0 && (
+          <div className="flex flex-col sm:flex-row justify-between items-center p-6 border-t space-y-4 sm:space-y-0">
+            {/* Items count */}
+            <div className="text-sm text-gray-600">
+              Showing {(currentPage - 1) * itemsPerPage + 1} to {Math.min(currentPage * itemsPerPage, totalItems)} of {totalItems} users
+            </div>
+
+            {/* Pagination buttons */}
+            <div className="flex items-center space-x-2">
+              {/* Previous button */}
+              <button
+                onClick={() => goToPage(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="px-3 py-2 border border-gray-300 rounded-lg text-black hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                {`<<<`}
+              </button>
+
+              {/* Page numbers */}
+              {getPageNumbers().map((page, index) => (
+                <button
+                  key={index}
+                  onClick={() => typeof page === 'number' && goToPage(page)}
+                  disabled={page === '...'}
+                  className={`px-3 py-2 border rounded-lg min-w-10 text-black ${
+                    page === currentPage
+                      ? "bg-blue-600 text-white border-blue-600"
+                      : page === '...'
+                      ? "border-transparent cursor-default"
+                      : "border-gray-300 hover:bg-gray-100"
+                  } transition-colors`}
+                >
+                  {page}
+                </button>
+              ))}
+
+              {/* Next button */}
+              <button
+                onClick={() => goToPage(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="px-3 py-2 border border-gray-300 rounded-lg text-black hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                {`>>>`}
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Edit User Modal */}
@@ -349,8 +498,6 @@ const Users = () => {
                 >
                   <option value="Active">Active</option>
                   <option value="Blocked">Blocked</option>
-                  <option value="Suspended">Suspended</option>
-                  <option value="Inactive">Inactive</option>
                 </select>
               </div>
             </div>

@@ -5,8 +5,14 @@ import useGet from '../Hooks/useGet';
 
 function Beanie() {
   // const [data, setData] = useState([]);
-  const { data: products, loading, error, refetch } = useGet('products','beanie');
+  const { data: products, loading, error, refetch } = useGet('products');
+        const getBeanie = (products) => products.filter(product => 
+        product.type.includes('Beanie')
+      );
+        const beanies = getBeanie(products) 
+        console.log(beanies);
 
+        
 
   return (
     <>
@@ -25,7 +31,7 @@ function Beanie() {
         mx-auto
       "
         >
-          {products.map((db, index) => (
+          {beanies.map((db, index) => (
             <Link
               to={`/user/productdetails/${db.id}`}
               key={index}

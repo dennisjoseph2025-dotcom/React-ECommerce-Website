@@ -2,7 +2,8 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../context/userContext";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import useGet from "../Hooks/useGet";
 
 function Login() {
@@ -21,7 +22,7 @@ function Login() {
     e.preventDefault();
     
     if (!users || users.length === 0) {
-      toast("❌ No users found in database");
+      toast.warn("❌ No users found in database");
       return;
     }
     const CkUser = users.find(
@@ -32,7 +33,7 @@ function Login() {
     );
     console.log(CkUser);
         if (!CkUser) {
-      toast("🧐 Invalid User...");
+      toast.error("🧐 Invalid User...");
       return;
     }
     
@@ -41,7 +42,7 @@ function Login() {
       CkUser.email == "dennisjoseph2025@gmail.com" &&
       CkUser.password == "2025"
     ) {
-      toast("👑 Welcome Back Admin");
+      toast.success("👑 Welcome Back Admin");
       navi("/admin");
     }
      
@@ -49,7 +50,7 @@ function Login() {
       CkUser.status === "Active" 
 
     ) {
-        toast("😎Logi-In Successfull...");
+        toast.success("😎Logi-In Successfull...");
         setUser({
           name: CkUser.name,
           email: CkUser.email,
@@ -60,7 +61,7 @@ function Login() {
        
     }
       else {
-      toast("This User Has Been Suspended Or Been Blocked");
+      toast.warn("This Account Has Been Blocked");
     } 
   };
 

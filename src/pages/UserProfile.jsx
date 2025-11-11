@@ -2,7 +2,8 @@ import React, { useContext, useState, useEffect } from "react";
 import { UserContext } from "../context/userContext";
 import { Link, useNavigate } from "react-router-dom";
 import useGet from '../Hooks/useGet';
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const UserProfile = () => {
   const [data, checkData] = useState([]);
@@ -29,7 +30,7 @@ const UserProfile = () => {
   const logout = () => {
     setUser({ name: "", email: "", password: "" });
     localStorage.removeItem("user");
-    toast("👋Log-Out Successfull...");
+    toast.success("👋Log-Out Successfull...");
     navi("/");
   };
 

@@ -2,7 +2,8 @@ import React, { useContext, useState, useEffect } from "react";
 import { RemoveContext } from "../context/RemoveContext";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Cart() {
   let { setRemoveDt } = useContext(RemoveContext);
@@ -38,7 +39,7 @@ function Cart() {
       })
       .catch((error) => {
         console.error(error);
-        toast("NO USER FOUND");
+        toast.error("NO USER FOUND");
       });
   }, []);
   console.log(CkUser);
@@ -52,6 +53,7 @@ function Cart() {
     });
     setCkUser({ ...CkUser, cart: updatedCart });
     if (setRemoveDt) setRemoveDt(updatedCart);
+    toast.success("Item Removed from The Cart")
   };
   // Calculate totals
   const totalItems = CkUser.cart?.length || 0;

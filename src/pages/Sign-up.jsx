@@ -2,7 +2,8 @@ import React, { useState, useEffect, useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../context/userContext";
-import toast from 'react-hot-toast';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Signup() {
   const [data, setData] = useState([]);
@@ -31,13 +32,13 @@ function Signup() {
         order: []
       });
       setData(response.data);
-      toast(`😎Registration successful...`);
+      toast.success(`😎Registration successful...`);
       setUser({ name: user.name, email: user.email, password: user.password });
       localStorage.setItem('user', JSON.stringify(user));
       navi("/");
     } catch (error) {
       console.error("Error posting data:", error);
-      toast("🙁Registration failed...");
+      toast.error("🙁Registration failed...");
     }
   };
 

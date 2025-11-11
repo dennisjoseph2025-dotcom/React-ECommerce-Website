@@ -49,53 +49,47 @@ const handleFormSubmit = async (e) => {
   
   setIsProcessing(true);
   try {
-    // Update websiteOrders first
-    await axios.patch(`http://localhost:2345/websiteOrders/${selectedOrder.id}`, {
-      status: formData.status,
-    });
+    // Get ALL websiteOrders entries with this ordersetId
+    const websiteOrdersResponse = await axios.get(`http://localhost:2345/websiteOrders?ordersetId=${selectedOrder.ordersetId}`);
+    const allOrdersInSet = websiteOrdersResponse.data;
+
+    // Update ALL websiteOrders entries with this ordersetId
+    const updatePromises = allOrdersInSet.map(order => 
+      axios.patch(`http://localhost:2345/websiteOrders/${order.id}`, {
+        status: formData.status,
+      })
+    );
+
+    await Promise.all(updatePromises);
 
     // Then update the user's order
     const userResponse = await axios.get(`http://localhost:2345/users/${selectedOrder.userId}`);
     const user = userResponse.data;
     
     if (user && user.order) {
-      // Find and update the specific order in the user's order array
       const updatedOrders = user.order.map(orderSet => {
         if (orderSet.ordersetId === selectedOrder.ordersetId) {
-          // Update only the specific product that matches the orderId
-          const updatedProducts = orderSet.products.map(product => {
-            // Check if this is the exact product we want to update
-            if (product.orderId === selectedOrder.id) {
-              return { 
-                ...product, 
-                status: formData.status 
-              };
-            }
-            return product;
-          });
-          
-          // Check if all products in this order set have the same status
-          const allSameStatus = updatedProducts.every(
-            product => product.status === formData.status
-          );
+          // Update ALL products in this order set
+          const updatedProducts = orderSet.products.map(product => ({
+            ...product,
+            status: formData.status
+          }));
           
           return {
             ...orderSet,
             products: updatedProducts,
-            // Update order set status only if all products have the same status
-            status: allSameStatus ? formData.status : orderSet.status
+            status: formData.status // Update the entire order set status
           };
         }
         return orderSet;
       });
 
-      // Update the user with modified orders
       await axios.patch(`http://localhost:2345/users/${selectedOrder.userId}`, {
         order: updatedOrders
       });
     }
     
-    console.log("Order status updated successfully");
+    console.log("All orders in set updated successfully");
     await refetch();
     closeModal();
   } catch (error) {
@@ -146,9 +140,6 @@ const handleFormSubmit = async (e) => {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold text-gray-100">Order Management</h1>
         <div className="flex space-x-3 absolute right-5">
-          <button className="border px-4 py-2 rounded-lg hover:bg-gray-50 transition-colors">
-            Filter
-          </button>
           <button 
             onClick={refetch}
             className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
