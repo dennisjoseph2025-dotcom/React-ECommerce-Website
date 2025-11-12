@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import useGet from '../Hooks/useGet';
+import useGet from '../../Hooks/useGet';
 
 function Beanie() {
   // const [data, setData] = useState([]);
@@ -29,6 +29,7 @@ function Beanie() {
         max-w-full
         w-[90vw] sm:w-auto
         mx-auto
+        pt-10
       "
         >
           {beanies.map((db, index) => (

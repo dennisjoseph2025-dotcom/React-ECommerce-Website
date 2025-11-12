@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Link } from 'react-router-dom';
 import { RiShoppingCart2Line } from "react-icons/ri";
 import { CgProfile, CgSearch } from "react-icons/cg";
-import '../App.css';
+import '../../App.css';
 import Menuebar from "./Menuebar";
 
 function Navbar() {

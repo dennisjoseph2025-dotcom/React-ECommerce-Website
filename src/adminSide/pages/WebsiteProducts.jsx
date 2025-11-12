@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useGet from "../Hooks/useGet";
+import useGet from "../../Hooks/useGet";
 import AddProductModal from "./AddProductModel";
 import axios from "axios";
 import { toast } from "react-toastify";

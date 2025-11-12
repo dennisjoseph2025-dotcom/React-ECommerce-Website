@@ -1,10 +1,11 @@
 import React, { useContext, useState, useEffect } from "react";
 import { UserContext } from "../context/userContext";
 import { Link, useNavigate } from "react-router-dom";
-import useGet from '../Hooks/useGet';
-import toast from "react-hot-toast";
+import useGet from '../../Hooks/useGet';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const AdminUserProfile = () => {
+const UserProfile = () => {
   const [data, checkData] = useState([]);
   const [CkUsers, setCkUsers] = useState({});
   let { user, setUser } = useContext(UserContext);
@@ -29,7 +30,7 @@ const AdminUserProfile = () => {
   const logout = () => {
     setUser({ name: "", email: "", password: "" });
     localStorage.removeItem("user");
-    toast("👋Log-Out Successfull...");
+    toast.success("👋Log-Out Successfull...");
     navi("/");
   };
 
@@ -97,4 +98,4 @@ const AdminUserProfile = () => {
   );
 };
 
-export default AdminUserProfile;
+export default UserProfile;

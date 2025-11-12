@@ -5,7 +5,7 @@ import { RemoveContext } from "../context/RemoveContext";
 import { v4 as uuidv4 } from "uuid";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import useGet from '../Hooks/useGet';
+import useGet from '../../Hooks/useGet';
 function ProductDetails() {
   const [quantity, setQuantity] = useState(1);
   // Extract product ID from route params

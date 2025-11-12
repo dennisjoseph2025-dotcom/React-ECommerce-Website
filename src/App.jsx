@@ -1,32 +1,31 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./App.css";
-import Login from "./pages/Login";
-import Signup from "./pages/Sign-up";
+import Login from './userSide/pages/Login'
+import Signup from "./userSide/pages/Sign-up";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
-import NoMatch from "./pages/NoMatch";
-import Beanie from "./pages/Beanie";
-import Footer from "./components/Footer";
-import Shoes from "./pages/Shoes";
-import Tops from "./pages/Tops";
-import Search from "./pages/Search";
-import Cart from "./pages/Cart";
-import UserProfile from "./pages/UserProfile";
-import { UserContext } from "./context/userContext";
-import { RemoveContext } from "./context/RemoveContext";
-import ProductDetails from "./pages/ProductDetails";
-import OrderPage from "./pages/Order";
+import Home from "./userSide/pages/Home";
+import Navbar from "./userSide/components/Navbar";
+import NoMatch from "./userSide/pages/NoMatch";
+import Beanie from "./userSide/pages/Beanie";
+import Footer from "./GlobelComponent/Footer";
+import Shoes from "./userSide/pages/Shoes";
+import Tops from "./userSide/pages/Tops";
+import Search from "./userSide/pages/Search";
+import Cart from "./userSide/pages/Cart";
+import UserProfile from "./userSide/pages/UserProfile";
+import { UserContext } from "./userSide/context/userContext";
+import { RemoveContext } from "./userSide/context/RemoveContext";
+import ProductDetails from "./userSide/pages/ProductDetails";
+import OrderPage from "./userSide/pages/Order";
 import { Toaster } from "react-hot-toast";
-import OrderSummary from "./pages/OrderSummery";
-import OrderDetails from "./pages/OrderDetails";
-import AdminHome from "./adminSide/AdminHome";
-import AdminUserProfile from "./adminSide/AdminUserProfile";
-import Products from "./adminSide/WebsiteProducts";
-import Orders from "./adminSide/WebsiteOrders";
-import Analytics from "./adminSide/WebsiteAnalytics";
-import Users from "./adminSide/WebsiteUserDetails";
+import OrderSummary from "./userSide/pages/OrderSummery";
+import OrderDetails from "./userSide/pages/OrderDetails";
+import AdminHome from "./adminSide/pages/AdminHome";
+import Products from "./adminSide/pages/WebsiteProducts";
+import Orders from "./adminSide/pages/WebsiteOrders";
+import Analytics from "./adminSide/pages/WebsiteAnalytics";
+import Users from "./adminSide/pages/WebsiteUserDetails";
 import AdminNavbar from "./adminSide/Components/AdminNavbar";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -106,7 +105,6 @@ function App() {
             <Route path="/admin/orders" element={<Orders />} />
             <Route path="/admin/analytics" element={<Analytics />} />
             <Route path="/admin/users" element={<Users />} />
-            <Route path="/admin/profile" element={<AdminUserProfile />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
 

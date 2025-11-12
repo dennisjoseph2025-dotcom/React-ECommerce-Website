@@ -37,19 +37,29 @@ export default function SalesChart() {
       };
     }
 
-    // Group by month or category for sales data
+    // Group by month for sales data
     const monthlySales = {};
     const categorySales = {};
     
     websiteOrders.forEach(order => {
-      // Process by month
-      const orderDate = new Date(order.orderDate || new Date());
-      const month = orderDate.toLocaleString('default', { month: 'short' });
-      monthlySales[month] = (monthlySales[month] || 0) + (order.price * (order.quantity || 1));
+      // Skip canceled orders if you want
+      if (order.status === "Order Canceled") return;
       
-      // Process by category
-      const category = order.category || order.type || 'Uncategorized';
-      categorySales[category] = (categorySales[category] || 0) + (order.price * (order.quantity || 1));
+      // Process by month
+      const orderDate = new Date(order.orderDate);
+      const month = orderDate.toLocaleString('default', { month: 'short' });
+      
+      // Use the totalPrice from the order object
+      monthlySales[month] = (monthlySales[month] || 0) + (order.totalPrice || 0);
+      
+      // Process by category using products array
+      if (order.products && order.products.length > 0) {
+        order.products.forEach(product => {
+          const category = product.category || product.type || 'Uncategorized';
+          const productTotal = (product.price || 0) * (product.quantity || 1);
+          categorySales[category] = (categorySales[category] || 0) + productTotal;
+        });
+      }
     });
 
     // Choose which data to display (monthly or category)
@@ -95,7 +105,7 @@ export default function SalesChart() {
       tooltip: {
         callbacks: {
           label: function(context) {
-            return `Revenue: ₹${context.raw}`;
+            return `Revenue: ₹${context.raw.toLocaleString()}`;
           }
         }
       }
@@ -105,7 +115,7 @@ export default function SalesChart() {
         beginAtZero: true,
         ticks: {
           callback: function(value) {
-            return '₹' + value;
+            return '₹' + value.toLocaleString();
           }
         }
       },

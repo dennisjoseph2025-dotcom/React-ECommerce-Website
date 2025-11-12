@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useGet from "../Hooks/useGet";
+import useGet from "../../Hooks/useGet";
 import Modal from "react-modal";
 import axios from "axios";
 

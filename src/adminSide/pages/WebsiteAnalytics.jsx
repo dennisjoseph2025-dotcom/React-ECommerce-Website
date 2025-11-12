@@ -1,22 +1,28 @@
 // components/admin/Analytics.js
 import React from "react";
-import DoughnutChart from "./pieChart";
-import SalesChart from "./SalesChart";
-import useGet from "../Hooks/useGet";
+import DoughnutChart from "../charts/pieChart";
+import SalesChart from "../charts/SalesChart";
+import useGet from "../../Hooks/useGet";
 
 const Analytics = () => {
   const { data: websiteOrders } = useGet("websiteOrders");
   console.log(websiteOrders.length);
   
   const { data: users } = useGet("users");
-      const totalRevenue = websiteOrders.reduce((sum, order) => sum + (order.price * order.quantity), 0);
+const totalRevenue = websiteOrders.reduce((sum, order) => {
+  if (order.status === "Order Canceled") return sum;
+  return sum + order.totalPrice;
+}, 0);
+      const totalItemsOrdered = websiteOrders.reduce((total, order) => total + (order.quantity || 0), 0)
       const totalOrders = users.reduce((total, user) => total + (user.numberOfOrders || 0), 0)
+      const NoOfOrders = websiteOrders.length
       const averageOrderValue = totalOrders > 0 ? Math.round(totalRevenue / totalOrders) : 0;
   const metrics = [
     { label: "Total Sales", value:("₹" + totalRevenue),},
     { label: "Avg. Order Value", value:("₹"  +averageOrderValue)},
     { label: "Total Users", value: users.length, },
-    { label: "Total Orders", value: totalOrders},
+    { label: "Total Items Ordered", value: totalItemsOrdered},
+    { label: "No Of Orders", value: NoOfOrders},
   ];
 
   return (
@@ -26,7 +32,7 @@ const Analytics = () => {
       <h1 className="text-3xl font-bold text-gray-100 mb-8">Sales Analytics</h1>
 
       {/* Key Metrics */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
         {metrics.map((metric, index) => (
           <div key={index} className="bg-white p-6 rounded-xl shadow-sm border">
             <p className="text-sm text-gray-500 mb-2">{metric.label}</p>
@@ -51,7 +57,6 @@ const Analytics = () => {
           <DoughnutChart />
         </div>
       </div>
-
        <div className="bg-white rounded-lg border p-6 shadow-sm mb-6">
           <h3 className="text-lg font-bold text-gray-800 mb-4">Order Status</h3>
           <div className="space-y-3">

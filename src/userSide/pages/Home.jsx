@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import Featured from "./Featured";
-import useGet from '../Hooks/useGet';
+import useGet from '../../Hooks/useGet';
 
 function Home() {
   const { data: products, loading, error, refetch } = useGet('products');
@@ -42,14 +42,19 @@ function Home() {
             {/* Hero Section with Carousel */}
       <section className="relative pt-20 pb-16 bg-slate-800">
         {/* <div className="container mx-auto px-6"> */}
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-400 mb-4">
-              Welcome to Our Store
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-10">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+              Welcome to{" "}
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-blue-200">
+                DENJO-C
+              </span>
             </h1>
-            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-              Discover quality products with exceptional value
+            <p className="text-xl text-blue-100 max-w-2xl mx-auto leading-relaxed">
+              Discover quality products with exceptional value and premium service
             </p>
           </div>
+        </div>
           </section>
       
       <br />

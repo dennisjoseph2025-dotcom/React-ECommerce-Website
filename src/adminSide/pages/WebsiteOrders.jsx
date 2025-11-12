@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useGet from '../Hooks/useGet';
+import useGet from '../../Hooks/useGet';
 import axios from "axios";
 
 const Orders = () => {
@@ -171,27 +171,30 @@ const handleFormSubmit = async (e) => {
                   <div className="flex justify-between items-start">
                     <div className="flex-1">
                       <div className="flex items-center space-x-4 mb-3">
-                        <p className="font-semibold text-lg text-black">Order ID: {order.name}</p>
+                        <p className="font-semibold text-lg text-black">Products : {order.productNames.join(" | ")}</p>
                         <span className={`px-3 py-1 rounded-full text-sm ${getStatusColor(order.status)}`}>
                           {order.status}
                         </span>
                       </div>
                       <p className="text-gray-600 mb-1">Customer: {order.userName}</p>
                       <p className="text-gray-600 mb-1">Email: {order.userEmail || 'N/A'}</p>
-                      <p className="text-gray-600 mb-1">Product: {order.name}</p>
                       <p className="text-gray-600 mb-1">Date: {new Date(order.orderDate).toLocaleDateString()}</p>
-                      <p className="text-gray-600">Product ID: {order.productId}</p>
+                      <p className="text-gray-600">Order ID: {order.ordersetId}</p>
                     </div>
                     <div className="text-right">
-                      <p className="text-2xl font-bold text-gray-800 mb-2">₹ {order.price}</p>
+                      <p className="text-2xl font-bold text-gray-800 mb-2">₹ {order.totalPrice}</p>
                       <p className="text-gray-600 mb-2">Qty: {order.quantity}</p>
                       <div className="flex space-x-2">
-                        <button 
+                        {order.status === "Order Canceled"? (
+                          <span className="text-white bg-red-500 rounded-md px-4 py-2 hover:bg-red-600 transition-colors">
+                            The Order Is Canceled
+                          </span>):(<button 
                           onClick={() => openEditModal(order)}
                           className="text-white bg-green-500 rounded-md px-4 py-2 hover:bg-green-600 transition-colors"
                         >
                           Update
-                        </button>
+                        </button>)}
+                        
                       </div>
                     </div>
                   </div>

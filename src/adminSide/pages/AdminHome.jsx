@@ -1,9 +1,8 @@
-// components/admin/AdminDashboard.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import useGet from "../Hooks/useGet";
+import useGet from "../../Hooks/useGet";
 const AdminHome = () => {
   const { data: users, loading, error, refetch } = useGet("users");
   const { data: products } = useGet("products");
@@ -37,16 +36,13 @@ const AdminHome = () => {
         )
     : 0;
 
-  const totalRevenue = websiteOrders.reduce(
-    (sum, order) => sum + order.price * order.quantity,
-    0
-  );
-  const totalOrders = users.reduce(
-    (total, user) => total + (user.numberOfOrders || 0),
-    0
-  );
-  const averageOrderValue =
-    totalOrders > 0 ? Math.round(totalRevenue / totalOrders) : 0;
+  const totalRevenue = websiteOrders.reduce((sum, order) => {
+  if (order.status === "Order Canceled") return sum;
+  return sum + order.totalPrice;
+}, 0);
+
+const NoOfOrders = websiteOrders.length
+
   const sortedWebsiteOrders = Array.isArray(websiteOrders)
     ? [...websiteOrders].reverse()
     : [];
@@ -92,7 +88,7 @@ const AdminHome = () => {
             <div>
               <p className="text-sm font-medium text-gray-600">Total Orders</p>
               <p className="text-2xl font-light text-gray-900 mt-1">
-                {totalOrders}
+                {NoOfOrders}
               </p>
             </div>
             <div className="w-10 h-10 bg-orange-50 rounded-lg flex items-center justify-center">
@@ -138,15 +134,15 @@ const AdminHome = () => {
             Recent Orders
           </h2>
           <div className="space-y-3">
-            {sortedWebsiteOrders.slice(0, 4).map((product) => (
+            {sortedWebsiteOrders.slice(0, 4).map((product,index) => (
               <div
-                key={product.orderId}
+                key={index}
                 className="flex items-center justify-between gap-4 py-2 border-b border-gray-100 last:border-0"
               >
                 {/* Product Info */}
                 <div className="flex-1 min-w-0">
                   <p className="font-medium text-gray-900 truncate">
-                    {product.id}
+                    Order Id: {product.id}
                   </p>
                   <p className="text-sm text-gray-600 truncate">
                     {product.name}
@@ -170,7 +166,7 @@ const AdminHome = () => {
 
                 {/* Price & Status */}
                 <div className="flex-1 min-w-0 text-right">
-                  <p className="font-medium text-gray-900">₹ {product.price}</p>
+                  <p className="font-medium text-gray-900">₹ {product.totalPrice}</p>
                   <span
                     className={`text-xs px-2 py-1 rounded-full ${
                       product.status === "Completed"
