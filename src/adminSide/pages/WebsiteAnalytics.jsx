@@ -1,4 +1,3 @@
-// components/admin/Analytics.js
 import React from "react";
 import DoughnutChart from "../charts/pieChart";
 import SalesChart from "../charts/SalesChart";

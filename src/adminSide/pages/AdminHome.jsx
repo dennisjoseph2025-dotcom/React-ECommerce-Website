@@ -4,37 +4,17 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import useGet from "../../Hooks/useGet";
 const AdminHome = () => {
-  const { data: users, loading, error, refetch } = useGet("users");
+  const { data: users} = useGet("users");
   const { data: products } = useGet("products");
   const { data: websiteOrders } = useGet("websiteOrders");
   const nav = useNavigate();
   const navigate = useNavigate();
   const logout = () => {
-    // setUser({ name: "", email: "", password: "" });
     localStorage.clear();
     toast("👋Log-Out Successfull...");
     navigate("/");
   };
-  const overallQuantity = Array.isArray(users)
-    ? users
-        .filter((u) => Array.isArray(u.order)) // Only users with a valid order array
-        .reduce(
-          (sum, user) =>
-            sum +
-            user.order.reduce(
-              (orderSum, orderSet) =>
-                orderSum +
-                (Array.isArray(orderSet.products)
-                  ? orderSet.products.reduce(
-                      (productSum, item) => productSum + (item.quantity || 1),
-                      0
-                    )
-                  : 0),
-              0
-            ),
-          0
-        )
-    : 0;
+
 
   const totalRevenue = websiteOrders.reduce((sum, order) => {
   if (order.status === "Order Canceled") return sum;
